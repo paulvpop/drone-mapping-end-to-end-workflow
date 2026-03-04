@@ -1,12 +1,10 @@
-**Step 1:** Install the Map Pilot Pro in your phone either through your mobile app store (Google Play Store/Apple App Store) or install it using an apk file here.
+**Step 1:** Install the Map Pilot Pro in your phone either through your mobile app store (Google Play Store/Apple App Store etc) or install it using an apk file.
 
 **Step 2:** Open the Map Pilot Pro app in your phone.
 
 <img src="https://github.com/user-attachments/assets/692b6d9e-b59a-4da5-9de8-18d5f6e6cfe8" alt="downloaded_app" width="225" height="450"> <br>
 
-<br>
-
-**Step 3:** Click on settings.
+**Step 3:** Click on 'Settings'.
 
 <img src="https://github.com/user-attachments/assets/fa697bed-0643-437e-8bf4-155668b20d33" alt="map_pilot_pro_screen" width="500" height="225"> <br>
 
@@ -19,16 +17,16 @@ Without this, you will only be able to export the flight paths in the mme (maps 
 **Step 5:** Go to 'Flight Camera' > 'Model'> and then select a camera which has an "Export Only" text given in the bracket. This is also necessary to export the flight path as a kmz file.
 
 <img src="https://github.com/user-attachments/assets/81478e53-26e1-4cb0-a9c7-64de673d97e4" alt="flight_camera_model" width="500" height="225"> 
-<img src="https://github.com/user-attachments/assets/6b624b82-8b18-48f3-a397-0a84a6c9b26e" alt="flight_camera_model" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/6b624b82-8b18-48f3-a397-0a84a6c9b26e" alt="flight_camera_model" width="500" height="225"> <br> <br>
 
-**Step 6:** Go back to the home screen and click on 'New Mission'
+**Step 6:** *[Start from step 18 if you want to upload and use boundary files of your region of interest as reference for drawing the flight paths]* Go back to the home screen and click on 'New Mission'
 
 <img src="https://github.com/user-attachments/assets/fa697bed-0643-437e-8bf4-155668b20d33" alt="map_pilot_pro_screen" width="500" height="225"> <br>
 
 **Step 7:** Click 'OK' on both the pop-ups
 
 <img src="https://github.com/user-attachments/assets/13f593b0-dbba-4605-878b-0fa0e30025e9" alt="pop_up_1" width="500" height="225"> 
-<img src="https://github.com/user-attachments/assets/4149b588-dd0e-4253-a2b9-cb26570a1ca2" alt="pop_up_2" width="500" height="225"> 
+<img src="https://github.com/user-attachments/assets/4149b588-dd0e-4253-a2b9-cb26570a1ca2" alt="pop_up_2" width="500" height="225"> <br> <br>
 
 **Step 8:** Move the viewport (the region of the map the app shows to you) to the desired flight path region.
 
@@ -37,6 +35,105 @@ If, not zoom out of Lower Manhattan and zoom into your region of interest.
 
 <img src="https://github.com/user-attachments/assets/f6a662a2-80d1-467c-9971-58c1a3f4d233" alt="default_viewport" width="500" height="225"> 
 <img src="https://github.com/user-attachments/assets/aaf5bd08-a6fb-41ec-8aab-9a1dcff34862" alt="zoomed_out_viewport" width="500" height="225"> 
+<img src="https://github.com/user-attachments/assets/28fb3231-44aa-4aa4-beba-4ce98da2424d" alt="zoomed_in_roi" width="500" height="225"> <br> <br>
+
+**Step 9:** Specify the altitude (80 m is ideal), speed (slow speeds of 3 m/s is recommended for clear capture of images), and overlap (80% overlap in the front and sides (80/80) is recommended. For class specific recommendations, you can visit read [this article][1]).Click on 'Norm Mission' and then 'Normal'. 
+
+<img src="https://github.com/user-attachments/assets/21a01ea1-84cc-4078-92fc-60c043bfb61e" alt="norm_mission" width="500" height="225"> <br> 
+
+**Step 10:** Click on the bar with 'export only' to minimize the top bar so that you have more visibility of your region of interest.
+
+<img src="https://github.com/user-attachments/assets/fa676f90-b1e0-4caf-9ab7-cd5451983721" alt="minimize" width="500" height="225"> <br> 
+
+**Step 11:** Long press on a portion of the screen to set your purple "Home point" dot. This is the point to where the drone will return to after the flight path has been completed.
+
+<img src="https://github.com/user-attachments/assets/94502011-f412-4589-a537-8128d8d7b9ff" alt="home_dot" width="500" height="225"> <br> 
+
+**Step 12:** Long press on a portion of the screen to set your orange "Boundary" dots to cover the entire survey area. 
+
+There will be three dots in the beginning. Use these three dots to cover the entirety of the desired survey area in the first pass. After this, use the smaller orange dots to more snuggly fit the survey area. Be careful whil moving the smaller dots to avoid messing up as there is no undo or redo option. If you mess up, delete the flight path by using the dust bin icon on the top left.
+
+<img src="https://github.com/user-attachments/assets/9ffdd5c4-53c6-48e9-b97e-7a617a0a27c4" alt="boundary_dot" width="500" height="225"> <br> 
+
+**(optional) Step 13:** If you want this flight plan to be accessible later on, click on the floppy disk icon on the top left, name it and save the mission/flight path. 
+
+<img src="https://github.com/user-attachments/assets/536def51-7930-44b8-89c2-0d924cc9727a" alt="rename" width="500" height="225">
+<img src="https://github.com/user-attachments/assets/552b49f1-b056-4cb2-9cfa-b738aebd8c41" alt="renamed" width="500" height="225"> <br> <br>
+
+**Step 14:** Click on the drone/airplane icon on the top right and click on the 'Export' icon
+
+<img src="https://github.com/user-attachments/assets/7d956515-797e-4cb0-bd72-4ba52b86545e" alt="drone_icon" width="500" height="225">
+<img src="https://github.com/user-attachments/assets/b86194ae-5043-44f1-8ca8-1db8cfb20dd5" alt="export" width="500" height="225"> <br> <br>
+
+**Step 15:** Click on 'No' for the 'Terrain Awareness' pop-up, as this option is not available in the free version.
+
+<img src="https://github.com/user-attachments/assets/08a2a011-0e18-4aa8-906d-143e589689d4" alt="pop_up_terrain_awareness" width="500" height="225"><br>
+
+**Step 16:** Give a name for the flight path, click on 'Export' and press 'OK' on the next popup.
+
+<img src="https://github.com/user-attachments/assets/844db279-6cef-40d0-a2a8-10560661ad89" alt="rename" width="500" height="225">
+<img src="https://github.com/user-attachments/assets/b43fe903-185f-4ddf-94bf-54a6ca21887f" alt="export" width="500" height="225"> <br> <br>
+
+**Step 17:** Click on left facing triangle which will reveal the 'Exit' icon. Click and exit to the Home screen.
+
+<img src="https://github.com/user-attachments/assets/17ae4c17-33ca-4648-9047-16d983e650d2" alt="exit" width="500" height="225"> <br>
+
+**(optional) Step 18:** Click on 'File Manager'
+
+If you need to import a boundary file for your region(s) of interest like a shapefile, then you first need to convert it to a kmz format (using tools like QGIS) and keep it ready in the device or google drive.
+
+<img src="https://github.com/user-attachments/assets/fa697bed-0643-437e-8bf4-155668b20d33" alt="file_manager" width="500" height="225"> <br>
+
+**(optional) Step 19:** Click on 'Import'
+
+<img src="https://github.com/user-attachments/assets/e129a13d-61d3-4c66-a441-585bfe4e0d9c" alt="import" width="500" height="225"> <br>
+
+**(optional) Step 20:** Navigate to the location in your device or google drive to find the saved boundary file, and then click on it.
+
+<img src="https://github.com/user-attachments/assets/7e90eb4b-1a06-4952-9af1-468c46288717" alt="drive" width="225" height="450">
+<img src="https://github.com/user-attachments/assets/6143fbfc-6b30-4078-894b-0c661e6c0bc7" alt="search" width="225" height="450">
+<img src="https://github.com/user-attachments/assets/6feef804-5f7b-4039-8aaa-521e731b9a99" alt="find" width="225" height="450"> <br> <br>
+
+**(optional) Step 21:** Click on 'Imported'
+
+<img src="https://github.com/user-attachments/assets/3fd7872a-cbfb-4539-a987-6683560dda27" alt="import" width="500" height="225"> <br>
+
+**(optional) Step 22:** Under 'Imported Overlay Files', turn on the 'Show KML'
+
+<img src="https://github.com/user-attachments/assets/bc475eee-34fe-4930-bc04-171ebb8d7fe7" alt="import" width="500" height="225"> <br>
+
+**(optional) Step 23:** Click on 'Sync'
+
+This is needed so that the boundary files show up in the map.
+
+<img src="https://github.com/user-attachments/assets/a37ae6af-85ea-4f93-b1a0-ff2acf991cd7" alt="import" width="500" height="225"> <br>
+
+**(optional) Step 24:** Under 'Imported Overlay Files', turn on the 'Show KML'
+
+<img src="https://github.com/user-attachments/assets/bc475eee-34fe-4930-bc04-171ebb8d7fe7" alt="import" width="500" height="225"> <br>
+
+**(optional) Step 25:** Repeat Step 6 to 16 but with the boundary files as a guide for drawing the flight paths.
+
+You can see that in this case, there are grey line segments after the white line segments in the flight path. The grey lines indicate whose paths which cannot be completed in one flight,
+and multiple batteries would be required to complete such large survey areas. The drone will return to the home point after reaching the end of the white line, and then after battery has been replaced,
+it will continue from where it left off. For details on how much distance the flight path covers, the number of batteries required, area covered, number of images captured, amount of space it will take in
+storage, click on the polygon icon on the left of the screen. If you have a paid account and wants to have better terrain awareness for the flight path, click on the icon on the bottom left with one coniferous 
+tree and two  snow-capped mountains. It will allow you to select the digital elevation model. ASTER is the worst among them for most regions. SRTM is better, but Copernicus is likely the most accurate among 
+these three for most regions, especially the mountainous regions.
+
+
+<img src="https://github.com/user-attachments/assets/bc32b989-9ea4-40da-8865-b196c01b3a64" alt="search" width="500" height="225">
+<img src="https://github.com/user-attachments/assets/e7a38cb7-83b2-4cc8-b50e-3a72ce70b0a4" alt="drive" width="500" height="225">
+<img src="https://github.com/user-attachments/assets/facc8bfc-35cf-4a65-8c5d-88302e5450f5" alt="find" width="500" height="225"> <br> <br>
+
+
+
+
+[1]: https://docs.webodm.net/getting-started/image-capture/
+
+
+
+
 
 
 
