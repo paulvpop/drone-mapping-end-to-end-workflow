@@ -140,7 +140,7 @@ these three for most regions, especially the mountainous regions.
 
 ### For DJI Mini 5 Pro
 
-For DJI Mini 5 Pro, the kmz file must be uploaded to the remote controller. But there is no straightfoward way to do this. Rohan Baishya explains in this section, a foolproof method to do this.
+For DJI Mini 5 Pro, the kmz file must be uploaded to the remote controller. But there is no straightfoward way to do this. Rohan Baishya explains in this section, a foolproof method to do this (based on [this tutorial][2].
 
 **Step 1:** In the RC/DJI fly app, connect the drone and press 'GO FLY' 
 
@@ -160,10 +160,53 @@ NOTE: Make sure the drone is placed outside for adequate satellite signal
 
 <img src="https://github.com/user-attachments/assets/03b0d842-8721-4b8c-9ae2-5e0a778ae37b" alt="waypoint-icon" width="600" height="325"> <br>
 
-**Step 5:** Select the waypoint created and click on 'Save'.
+**Step 5:** Select the waypoint created and click on 'SAVE' > 'Save'.
 
-<img src="https://github.com/user-attachments/assets/ac1487d9-9e6d-4e17-bad9-adae3d681d54" alt="save" width="600" height="325">
-<img src="https://github.com/user-attachments/assets/e7328b47-2fb6-4d4d-8b96-77817e308da5" alt="save" width="600" height="325"> <br>
+<img src="https://github.com/user-attachments/assets/ac1487d9-9e6d-4e17-bad9-adae3d681d54" alt="SAVE" width="600" height="325">
+<img src="https://github.com/user-attachments/assets/e7328b47-2fb6-4d4d-8b96-77817e308da5" alt="Save" width="600" height="325"> <br><br>
+
+**Step 6:** Return to the home screen by clicking on the left-facing arrow on top-left and press on 'Save and Exit'. 
+
+<img src="https://github.com/user-attachments/assets/d929a78b-f3f3-4b77-8dad-99bc6d8fb18e" alt="save_and-exit" width="600" height="325"> <br>
+
+**Step 7:** Connect the RC to your desktop/laptop (using an USB or any other means available) and follow this path
+```
+DJI RC 2 > Internal Shared Storage > Android > data > Dji.go.v5 > files > waypoint
+```
+<img src="https://github.com/user-attachments/assets/3587bd4a-abd0-46f4-aff8-5bf99097714a" alt="path" width="800" height="525">
+
+Once you reach the waypoint folder, select the most recently created folder. This will contain the waypoint created in the steps above.
+
+**Step 8:** Open the folder and copy the name of the KMZ file. 
+
+<img src="https://github.com/user-attachments/assets/846c81e1-0beb-4db2-9d58-6e7ad837b587" alt="copy_name" width="800" height="525"> <br>
+
+**Step 9:**  In the PC, change the name of the KMZ file generated from Map Pilot Pro app to the copied name. In this case the kmz file named "Pasighat_test_1.kmz" is changed 
+to "90A8341C-CFE2-4E84-8681-B5B081E5C815.kmz"
+
+<img src="https://github.com/user-attachments/assets/1c6e17c9-8c26-4079-8859-3410e3b3ebc5" alt="rename" width="800" height="525"> <br>
+
+**Step 10:**  Copy it to the folder we reached in step 7, and replace the original waypoint kmz file created in the RC/DJI Fly app with the kmz file 
+created in Map Pilot Pro app. Now you can disconnect the RC from the PC.
+
+<img src="https://github.com/user-attachments/assets/cbe6fc64-53fd-4dc1-864b-2cc598656890" alt="replace_original" width="800" height="525"> <br>
+
+**Step 11:**  Now connect the RC to the drone. 
+
+**Step 12:**  Once the drone is connected, navigate to the note/paper icon to the left of the text 'Waypoint'. 
+
+<img src="https://github.com/user-attachments/assets/ddc9ed80-da2e-4eb3-b2d8-726252e020ad" alt="note_icon" width="800" height="525">
+<img src="https://github.com/user-attachments/assets/abac377f-17dd-476c-8d81-6ad8b4fb2e34" alt="note_icon" width="800" height="525"> <br>
+
+The kmz file created in Map Pilot Pro should be visible now in the saved waypoints window. 
+
+
+
+
+
+
+
+
 
 
 
@@ -176,6 +219,7 @@ NOTE: Make sure the drone is placed outside for adequate satellite signal
 
 
 [1]: https://docs.webodm.net/getting-started/image-capture/
+[2]: https://youtu.be/E5GnutgGH2c?si=ZaDjesyPdX-LCRWC
 
 
 
