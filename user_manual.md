@@ -137,7 +137,7 @@ these three for most regions, especially the mountainous regions.
 <img src="https://github.com/user-attachments/assets/e7a38cb7-83b2-4cc8-b50e-3a72ce70b0a4" alt="white_and_grey_lines" width="500" height="225">
 <img src="https://github.com/user-attachments/assets/facc8bfc-35cf-4a65-8c5d-88302e5450f5" alt="more_details" width="500" height="225"> <br> <br>
 
-## Section 2: Uploading the flight path to the drone/drone app
+## Section 2: Uploading the flight path to the drone or drone app
 
 ### For DJI Mini 5 Pro
 
