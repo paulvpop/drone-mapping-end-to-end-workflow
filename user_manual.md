@@ -1,5 +1,5 @@
 - [Section 1: Creation and export of the flight paths](#section-1-creation-and-export-of-the-flight-paths)
-- [Section 2: Uploading the flight path to the drone/drone app](#Section-2-Uploading-the-flight-path-to-the-drone-drone-app)
+- [Section 2: Uploading the flight path to the drone/drone app](#section-2-uploading-the-flight-path-to-the-drone-drone-app)
   * [For DJI Mini 5 Pro](#For-DJI-Mini-5-Pro)
 
 <br>
