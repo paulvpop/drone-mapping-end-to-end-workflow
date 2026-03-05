@@ -1,3 +1,12 @@
+- [Section 1: Creation and export of the flight paths](#section-1-creation-and-export-of-the-flight-paths)
+- [Section 2: Uploading the flight path to the drone/drone app](#Section-2-Uploading-the-flight-path-to-the-drone-drone-app)
+  * [For DJI Mini 5 Pro](#For-DJI-Mini-5-Pro)
+
+<br>
+
+## Section 1 : Creation and export of the flight paths
+
+
 **Step 1:** Install the Map Pilot Pro in your phone either through your mobile app store (Google Play Store/Apple App Store etc) or install it using an apk file.
 
 **Step 2:** Open the Map Pilot Pro app in your phone.
@@ -98,7 +107,7 @@ If you need to import a boundary file for your region(s) of interest like a shap
 
 **(optional) Step 21:** Click on 'Imported'
 
-<img src="https://github.com/user-attachments/assets/3fd7872a-cbfb-4539-a987-6683560dda27" alt="import" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/3fd7872a-cbfb-4539-a987-6683560dda27" alt="imported" width="500" height="225"> <br>
 
 **(optional) Step 22:** Under 'Imported Overlay Files', turn on the 'Show KML'
 
@@ -108,11 +117,11 @@ If you need to import a boundary file for your region(s) of interest like a shap
 
 This is needed so that the boundary files show up in the map.
 
-<img src="https://github.com/user-attachments/assets/a37ae6af-85ea-4f93-b1a0-ff2acf991cd7" alt="import" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/a37ae6af-85ea-4f93-b1a0-ff2acf991cd7" alt="sync" width="500" height="225"> <br>
 
 **(optional) Step 24:** Under 'Imported Overlay Files', turn on the 'Show KML'
 
-<img src="https://github.com/user-attachments/assets/bc475eee-34fe-4930-bc04-171ebb8d7fe7" alt="import" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/bc475eee-34fe-4930-bc04-171ebb8d7fe7" alt="show_kml" width="500" height="225"> <br>
 
 **(optional) Step 25:** Repeat Step 6 to 16 but with the boundary files as a guide for drawing the flight paths.
 
@@ -124,12 +133,15 @@ tree and two  snow-capped mountains. It will allow you to select the digital ele
 these three for most regions, especially the mountainous regions.
 
 
-<img src="https://github.com/user-attachments/assets/bc32b989-9ea4-40da-8865-b196c01b3a64" alt="search" width="500" height="225">
-<img src="https://github.com/user-attachments/assets/e7a38cb7-83b2-4cc8-b50e-3a72ce70b0a4" alt="drive" width="500" height="225">
-<img src="https://github.com/user-attachments/assets/facc8bfc-35cf-4a65-8c5d-88302e5450f5" alt="find" width="500" height="225"> <br> <br>
+<img src="https://github.com/user-attachments/assets/bc32b989-9ea4-40da-8865-b196c01b3a64" alt="boundary_files" width="500" height="225">
+<img src="https://github.com/user-attachments/assets/e7a38cb7-83b2-4cc8-b50e-3a72ce70b0a4" alt="white_and_grey_lines" width="500" height="225">
+<img src="https://github.com/user-attachments/assets/facc8bfc-35cf-4a65-8c5d-88302e5450f5" alt="more_details" width="500" height="225"> <br> <br>
 
+## Section 2: Uploading the flight path to the drone/drone app
 
+### For DJI Mini 5 Pro
 
+**Step 1:** Install the Map Pilot Pro in your phone either through your mobile app store (Google Play Store/Apple App Store etc) or install it using an apk file.
 
 [1]: https://docs.webodm.net/getting-started/image-capture/
 
