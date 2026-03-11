@@ -1,7 +1,7 @@
 - [Section 1: Creation and export of the flight paths](#section-1-creation-and-export-of-the-flight-paths)
 - [Section 2: Uploading the flight path to the drone or drone app](#section-2-uploading-the-flight-path-to-the-drone-or-drone-app)
   * [For DJI Mini 5 Pro](#for-dji-mini-5-pro)
-- [Section 4: Creation of orthomosaic in WebODM](#creation-of-orthomosaic-in-webodm)
+- [Section 4: Creation of orthomosaic in WebODM](#section-4-creation-of-orthomosaic-in-webodm)
 
 <br>
 
