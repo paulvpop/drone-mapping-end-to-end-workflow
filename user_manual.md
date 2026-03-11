@@ -5,7 +5,7 @@
 
 <br>
 
-## Section 1 : Creation and export of the flight paths
+## Section 1: Creation and export of the flight paths
 
 **Step 1:** Install the Map Pilot Pro in your phone either through your mobile app store (Google Play Store/Apple App Store etc) or install it using an apk file.
 
@@ -201,7 +201,7 @@ created in Map Pilot Pro app. Now you can disconnect the RC from the PC.
 
 The kmz file created in Map Pilot Pro should be visible now in the saved waypoints window. 
 
-## Section 4 : Creation of orthomosaic in WebODM
+## Section 4: Creation of orthomosaic in WebODM
 
 WebODM is a powerful free and open-source software for the rendering of orthomosaics as well as 3D imagery from the drone photographs. It is very advanced with a lot of options to play around with to efficiently and quickly process large number of drone imagery.
 The bottleneck for processing would be the system RAM size, availability of GPU, disk space etc. Higher the RAM size, availability of good GPUs for GPU acceleration, and sufficient disk space for storage of input/output files as well as intermediate products (there is an option to delete intermediate products in WebODM while processing, for those lacking space). 
