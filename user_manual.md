@@ -214,7 +214,7 @@ WebODM works best in Linux, and also in Windows and Apple and Operating Systems 
 
 If using Windows, you can allocate more memory by searching for WSL Settings...
 
-<img src="https://github.com/user-attachments/assets/2e567a29-68eb-40b3-a284-6cb4d1ca7190" alt="search_wsl_settings" width="800" height="675">
+<img src="https://github.com/user-attachments/assets/2e567a29-68eb-40b3-a284-6cb4d1ca7190" alt="search_wsl_settings" width="800" height="750">
 
 ...and editing the 'Memory Size' option. 28,000 MB here is nearly 28 GB (out of the 32 GB RAM available in the system). Leave some memory for Windows.
 
