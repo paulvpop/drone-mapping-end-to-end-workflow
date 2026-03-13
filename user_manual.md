@@ -220,6 +220,12 @@ You can ignore it, but ideally you would want a device with better memory.
 
 **Step 2:** Once you've created the flight path, connect to the drone.
 
+_Step 2a:_ Switch on the RC and the drone.
+
+_Step 2b:_ Connect the phone to the RC (Remote Control).
+
+_Step 2c:_ Once it is connected, the phone will prompt you to connect to an existing drone app - like DJI Fly or Map Pilot Pro. Select Map Pilot Pro.
+
 **Step 3:** The app will display the following pop-ups. Click 'OK'.
 
 <img src="https://github.com/user-attachments/assets/64197afd-da05-4f4b-b12d-00610cf05977" alt="important_warning" width="500" height="225"> <br>
