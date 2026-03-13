@@ -1,6 +1,8 @@
 - [Section 1: Creation and export of the flight paths](#section-1-creation-and-export-of-the-flight-paths)
 - [Section 2: Uploading the flight path to the drone or drone app](#section-2-uploading-the-flight-path-to-the-drone-or-drone-app)
   * [For DJI Mini 5 Pro](#for-dji-mini-5-pro)
+- [Section 3: Flying the drone](#section-3-flying-the-drone)
+  * [DJI Mini 3](#dji-mini-3)
 - [Section 4: Creation of orthomosaic in WebODM](#section-4-creation-of-orthomosaic-in-webodm)
 
 <br>
@@ -201,6 +203,47 @@ created in Map Pilot Pro app. Now you can disconnect the RC from the PC.
 
 The kmz file created in Map Pilot Pro should be visible now in the saved waypoints window. 
 
+
+## Section 3: Flying the drone
+
+### DJI Mini 3
+
+_This screenshots for this section was contributed by Raju._
+
+Note that if you're opening the Map Pilot Pro app in aa device with 4 GB, you will get a warning like this:
+
+<img src="https://github.com/user-attachments/assets/3153e1f8-11b3-404e-ab2a-3256c3205bd7" alt="memory_warning" width="500" height="225"> <br>
+
+You can ignore it, but ideally you would want a device with better memory.
+
+**Step 1:** As there is no way to export a created flight path to the Map Pilot Pro app in the free version, one has to create the flight path in the field. Follow section 1 to create the flight path, and input the right altitude, speed, overlap etc.
+
+**Step 2:** Once you've created the flight path, connect to the drone.
+
+**Step 3:** The app will display the following pop-ups. Click 'OK'.
+
+<img src="https://github.com/user-attachments/assets/64197afd-da05-4f4b-b12d-00610cf05977" alt="important_warning" width="500" height="225"> <br>
+
+**Step 4:** Then another pop-ups. Click 'No' as Terrain Awareness is not available in the free version.
+
+<img src="https://github.com/user-attachments/assets/a9e559cf-f774-448a-81e3-db4e8240542d" alt="terrain_awareness" width="500" height="225"> <br>
+
+**Step 5:** You can click 'Override' on the 'Return to Home Height' pop-up.
+
+<img src="https://github.com/user-attachments/assets/48ac62eb-fa02-41fe-80c0-4eab6b298e9e" alt="terrain_awareness" width="500" height="225"> <br>
+
+**Step 6:** After checking the blue line (flight path). click 'OK' on the 'Path Verification' pop-up, and then click on 'Takeoff' on the top right.
+
+<img src="https://github.com/user-attachments/assets/cffd194a-0017-436e-97a6-71e4f0e1ce50" alt="terrain_awareness" width="500" height="225"> <br>
+
+**Step 7:** If the mapping is complete before the finishing up of one battery, it will show 'Mapping Complete'. Usually, the drone is programmed to return to home at betweeen 20-30% of the battery left
+for the purpose of safety. You can lower this perecentage at your risk so that more of the flight path is covered at one go. Click 'OK' on the Mapping Complete pop-up.
+
+<img src="https://github.com/user-attachments/assets/bfd3aa4f-53e0-4909-b7d4-8c118e7417ec" alt="terrain_awareness" width="500" height="225"> <br>
+
+**Step 8:**  Pilot the drone back to the point if it has not returned to home.
+
+
 ## Section 4: Creation of orthomosaic in WebODM
 
 WebODM is a powerful free and open-source software for the rendering of orthomosaics as well as 3D imagery from the drone photographs. It is very advanced with a lot of options to play around with to efficiently and quickly process large number of drone imagery.
@@ -289,6 +332,7 @@ You can download the orthophoto, quality report, point cloud (for 3D imagery) et
 <img width="1603" height="536" alt="image" src="https://github.com/user-attachments/assets/81245006-1bfc-402b-a071-ece9492bbc50" />
 
 You can download the data log (Task Output log on the console) by clicking on the download icon underneath the 'Task Output' console. This will be useful for troubleshooting any issues.
+
 
 
 
