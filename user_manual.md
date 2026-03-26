@@ -143,6 +143,8 @@ these three for most regions, especially the mountainous regions.
 
 ### For DJI Mini 5 Pro
 
+Note: this workflow won't work for DJI Mini 3 as the waypoint creation icon is not visible in the DJI Fly when connected to the drone. 
+
 For DJI Mini 5 Pro, the kmz file must be uploaded to the remote controller. But there is no straightfoward way to do this. Rohan Baishya explains in this section, a foolproof method to do this (based on [this tutorial][2].
 
 **Step 1:** In the RC/DJI fly app, connect the drone and press 'GO FLY' 
@@ -208,7 +210,7 @@ The kmz file created in Map Pilot Pro should be visible now in the saved waypoin
 
 ### DJI Mini 3
 
-_This screenshots for this section was contributed by Raju._
+_The screenshots for this section were largely contributed by Raju._
 
 Note that if you're opening the Map Pilot Pro app in aa device with 4 GB, you will get a warning like this:
 
@@ -248,14 +250,18 @@ _Step 2c:_ Once it is connected, the phone will prompt you to connect to an exis
 
 <img src="https://github.com/user-attachments/assets/cffd194a-0017-436e-97a6-71e4f0e1ce50" alt="terrain_awareness" width="500" height="225"> <br>
 
-**Step 9:** If the mapping is complete before the finishing up of one battery, it will show 'Mapping Complete'. Usually, the drone is programmed to return to home at betweeen 20-30% of the battery left
-for the purpose of safety. You can lower this perecentage at your risk so that more of the flight path is covered at one go. Click 'OK' on the Mapping Complete pop-up.
+**Step 9:** If the mapping is complete before the finishing up of one battery, it will show 'Mapping Complete'.  Click 'OK' on the Mapping Complete pop-up.
+
+Usually, the drone is programmed to return to home when the battery is below 20% power for the purpose of safety. There may be a way to lower this perecentage at your risk so that more of the flight path is covered at one go. 
+But it is highly recommended that you don't, as you can risk the drone crash landing.
 
 <img src="https://github.com/user-attachments/assets/bfd3aa4f-53e0-4909-b7d4-8c118e7417ec" alt="terrain_awareness" width="500" height="225"> <br>
 
 **Step 10:**  Pilot the drone back to the point if it has not returned to home. 
 
 **Step 11:**  Save the flight path again in case only part of the flight path has been completed or if you want to know the route the drone took back to the home point.
+
+**Potential issue:** A major issue that can affect the flight is 
 
 
 ## Section 4: Creation of orthomosaic in WebODM
