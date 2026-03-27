@@ -1,3 +1,11 @@
+This user manual describes the process of creating flight paths, flying the drones over these flight paths, and creating orthomosaics of imagery collected from these planned missions.
+
+This research is carried out under the BIRD lab, ATREE, Bengaluru (PI: Rajkamal Goswami), with some ongoining techical support from Aaditeshwar Seth's team working on drones (Jayakrishna, Gaurav Rajput, Parth Thakur, and Raman Kumar) at IIT Delhi.
+
+Rohan Baishya, Parth Thakur, Raju, Ranjith Kumar HT and Rajkamal Goswami have contributed to this manual either through contributions to portions of the manual or verbal suggestions/recommendations. <br> <br>
+
+Sections:
+
 - [Section 1: Creation and export of the flight paths](#section-1-creation-and-export-of-the-flight-paths)
 - [Section 2: Uploading the flight path to the drone or drone app](#section-2-uploading-the-flight-path-to-the-drone-or-drone-app)
   * [For DJI Mini 5 Pro](#for-dji-mini-5-pro)
@@ -351,6 +359,8 @@ The kmls in this case will look like this (on google earth imagery background), 
 **Potential issue:** <br> A major issue that can affect the flight is loss of connection to the satellites, in which case the drone won't continue on the same path when connection comes back (the connection seems to drop after the number of satellites becomes 17 or less). It will show a loading icon in the center of the screen along with the number of satellites missing (as seen below).
 
 ### DJI Mini 4 Pro
+
+*Parth Thakur has contributed this section.*
 
 **Step 1:** Connect the RC with the drone and enter an open ground
 
