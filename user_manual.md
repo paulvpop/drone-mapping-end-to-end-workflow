@@ -143,7 +143,7 @@ ASTER is the worst among them for most regions. SRTM is better, but Copernicus i
 
 ## Section 2: Uploading the flight path to the drone or drone app
 
-### For DJI Mini 5 Pro
+### For DJI Mini 5 Pro and DJI Mini 4 Pro
 
 Note: this workflow won't work for DJI Mini 3 as the waypoint creation icon is not visible in the DJI Fly when connected to the drone. 
 
@@ -359,19 +359,19 @@ The kmls in this case will look like this (on google earth imagery background), 
 
 **Step 3:** Select this list button.
 
-<img src="https://github.com/hbot07/Drone-Phenology-Monitoring/blob/2f8553c89832045c92a51927bdbe357ce9f72b67/misc/guide_for%20_drone_tasks/images/step2.jpeg?raw=true" width="600"> <br>
+<img src="https://github.com/user-attachments/assets/ca87334a-80de-42b0-aab1-334171386a9a" width="600"> <br>
 
 **Step 4:** Select the path you want to operate on as uploaded previously on DJI RC.
 
-<img src="https://github.com/hbot07/Drone-Phenology-Monitoring/blob/2f8553c89832045c92a51927bdbe357ce9f72b67/misc/guide_for%20_drone_tasks/images/step3.jpeg?raw=true" width="600"> <br>
+<img src="https://github.com/user-attachments/assets/da9b1507-c3ac-49e2-aac9-d5bf9826f82e" width="600"> <br>
 
 **Step 5:** It will appear like this showing the number of waypoints present. Then press **Next**.
 
-<img src="https://github.com/hbot07/Drone-Phenology-Monitoring/blob/2f8553c89832045c92a51927bdbe357ce9f72b67/misc/guide_for%20_drone_tasks/images/step4.jpeg?raw=true" width="600"> <br>
+<img src="https://github.com/user-attachments/assets/4311aca3-d596-4b4b-8d27-b2fab8a5a467" width="600"> <br>
 
 **Step 6:** All the fields will already be filled as per the data configured in Map Pilot Pro. Press **Go** to make the drone fly on the selected flight path.
 
-<img src="https://github.com/hbot07/Drone-Phenology-Monitoring/blob/2f8553c89832045c92a51927bdbe357ce9f72b67/misc/guide_for%20_drone_tasks/images/step5.jpeg?raw=true" width="600"> <br>
+<img src="https://github.com/user-attachments/assets/1a074f89-ed28-4c5a-ba0e-a80ea4c33348" width="600"> <br>
 
 ## Section 4: Creation of orthomosaic in WebODM
 
