@@ -2,7 +2,9 @@ This user manual describes the process of creating flight paths, flying the dron
 
 This research is carried out under the BIRD lab, ATREE, Bengaluru (PI: Rajkamal Goswami), with some ongoining techical support from Aaditeshwar Seth's team working on drones (Jayakrishna, Gaurav Rajput, Parth Thakur, and Raman Kumar) at IIT Delhi.
 
-Rohan Baishya, Parth Thakur, Raju, Ranjith Kumar HT and Rajkamal Goswami have contributed to this manual either through contributions to portions of the manual or verbal suggestions/recommendations. <br> <br>
+This user manual has been primarily authored by Paul Pop (including most screenshots and images).
+
+Other contributors: Rohan Baishya, Parth Thakur, Raju, Ranjith Kumar HT and Rajkamal Goswami have contributed to this manual either through contributions to portions of the manual or verbal suggestions/recommendations. <br> <br>
 
 Sections:
 
