@@ -3,6 +3,7 @@
   * [For DJI Mini 5 Pro](#for-dji-mini-5-pro)
 - [Section 3: Flying the drone](#section-3-flying-the-drone)
   * [DJI Mini 3](#dji-mini-3)
+  * [DJI Mini 4 Pro](#dji-mini-4-pro)
 - [Section 4: Creation of orthomosaic in WebODM](#section-4-creation-of-orthomosaic-in-webodm)
 
 <br>
