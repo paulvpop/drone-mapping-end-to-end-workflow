@@ -66,7 +66,7 @@ There will be three dots in the beginning. Use these three dots to cover the ent
 
 <img src="https://github.com/user-attachments/assets/9ffdd5c4-53c6-48e9-b97e-7a617a0a27c4" alt="boundary_dot" width="500" height="225"> <br> 
 
-**(optional) Step 13:** If you want this flight plan to be accessible later on, click on the floppy disk icon on the top left, name it and save the mission/flight path. 
+**(optional) Step 13:** If you want this flight plan to be accessible later on, click on the floppy disk icon on the top left, name it and save the mission/flight path. **This is needed for long-term consistent mapping of the same region across seasons and years.**
 
 <img src="https://github.com/user-attachments/assets/536def51-7930-44b8-89c2-0d924cc9727a" alt="rename" width="500" height="225">
 <img src="https://github.com/user-attachments/assets/552b49f1-b056-4cb2-9cfa-b738aebd8c41" alt="renamed" width="500" height="225"> <br> <br>
@@ -128,16 +128,17 @@ This is needed so that the boundary files show up in the map.
 **(optional) Step 25:** Repeat Step 6 to 16 but with the boundary files as a guide for drawing the flight paths.
 
 You can see that in this case, there are grey line segments after the white line segments in the flight path. The grey lines indicate whose paths which cannot be completed in one flight,
-and multiple batteries would be required to complete such large survey areas. The drone will return to the home point after reaching the end of the white line, and then after battery has been replaced,
-it will continue from where it left off. For details on how much distance the flight path covers, the number of batteries required, area covered, number of images captured, amount of space it will take in
-storage, click on the polygon icon on the left of the screen. If you have a paid account and wants to have better terrain awareness for the flight path, click on the icon on the bottom left with one coniferous 
-tree and two  snow-capped mountains. It will allow you to select the digital elevation model. ASTER is the worst among them for most regions. SRTM is better, but Copernicus is likely the most accurate among 
-these three for most regions, especially the mountainous regions.
-
+and multiple batteries would be required to complete such large survey areas. The drone is estimated to return to the home point after reaching the end of the white line, and then after battery has been replaced,
+it will continue from where it left off. **But this may not be the case in real life and this can be an overestimation, allowing us to actually cover areas in the grey region as well** (as is seen in the screenshot of a real mission on the bottom left below).
+For details on how much distance the flight path covers, the number of batteries required, area covered, number of images captured, amount of space it will take in storage, click on the polygon icon on the left of the screen. These may not be 100% accurate.
+If you have a paid account and wants to have better terrain awareness for the flight path, click on the icon on the bottom left with one coniferous  tree and two  snow-capped mountains. It will allow you to select the digital elevation model. 
+ASTER is the worst among them for most regions. SRTM is better, but Copernicus is likely the most accurate among these three for most regions, especially the mountainous regions.
 
 <img src="https://github.com/user-attachments/assets/bc32b989-9ea4-40da-8865-b196c01b3a64" alt="boundary_files" width="500" height="225">
-<img src="https://github.com/user-attachments/assets/e7a38cb7-83b2-4cc8-b50e-3a72ce70b0a4" alt="white_and_grey_lines" width="500" height="225">
+<img src="https://github.com/user-attachments/assets/e7a38cb7-83b2-4cc8-b50e-3a72ce70b0a4" alt="white_and_grey_lines1" width="500" height="225">
+<img src="https://github.com/user-attachments/assets/ae3ee731-c104-4634-937d-1eda5677398d" alt="white_and_grey_lines2" width="500" height="225">
 <img src="https://github.com/user-attachments/assets/facc8bfc-35cf-4a65-8c5d-88302e5450f5" alt="more_details" width="500" height="225"> <br> <br>
+
 
 ## Section 2: Uploading the flight path to the drone or drone app
 
@@ -222,72 +223,108 @@ You can ignore it, but ideally you would want a device with better memory.
 
 **Step 2:** Once you've created the flight path, save the flight path using the floppy disk icon on top left.
 
-**Step 3:** Connect to mobile app to the drone:
+**Step 3:** Place the drone in a flat area with all the stones and other potential things that can hit and harm the blades removed.
 
-_Step 3a:_ Connect the mobile phone containing the Map Pilot Pro app to the RC (Remote Control) using the cable of the RC (see top right of the image below).
+<img src="https://github.com/user-attachments/assets/3ccdd3ae-4dd7-4099-bab0-0d4ceec78132" alt="drone_on_ground" width="400" height="400"> <br>
+
+**Step 4:** Connect the mobile phone containing the Map Pilot Pro app to the RC (Remote Control) using the cable of the RC (see top right of the image below).
 
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/74d0cca3-d14e-4b95-a142-ce4fd304f961" /> <br>
 
-_Step 3b:_ Switch on the RC by single pressing the power button (the button on the right below) followed by a long press. This will show a brief flash of green (after single short press) and then permanent green light (after long press).
+**Step 5:** Switch on the RC by single pressing the power button (the button on the right below) followed by a long press. This will show a brief flash of green (after single short press) and then permanent green light (after long press).
 
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/29344496-9b4a-4488-8c31-ced0fb24b3f0" />
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/ae986ec4-cefa-44c7-a8d0-f3053f444797" /> <br>
 
 If you are already on the Map Pilot Pro app of the phone, it will show the following message: "Connected for charging only. Tap the USB notification to use USB for transferring files." You can change the setting if you fear any significant battery drainage of the RC by the mobile phone (there won't be). So, you can ignore this and not change anything. The connection to the RC will work whether you change the transfer settings or not.
 
-<img width="500" height="225" alt="image" src="https://github.com/user-attachments/assets/00445071-171b-4309-b0ca-94fe6ff1f376" />
+<img width="500" height="225" alt="image" src="https://github.com/user-attachments/assets/00445071-171b-4309-b0ca-94fe6ff1f376" /> <br>
 
-_Step 3c:_  Switch on the drone by single pressing the power button (the button on the center of the drone) followed by a long press. This will show a brief flash of green (after single short press) and then permanent green light (after long press).
+**Step 6:** Switch on the drone by single pressing the power button (the button on the center of the drone) followed by a long press. This will show a brief flash of green (after single short press) and then permanent green light (after long press).
 
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/97416827-b12a-4873-afcb-b8a8a2dc251b" />
 <img width="395" height="395" alt="image" src="https://github.com/user-attachments/assets/cb012e6d-c8de-41d3-b5a0-55ff6cba7c91" /> <br>
 
-Now the the drone will be detected by the mobile phone.
+Now the the drone will be detected by the mobile phone. 
 
-_Step 3d:_ Once it is detected, the phone will prompt you to connect to an existing drone app - like DJI Fly or Map Pilot Pro. Select Map Pilot Pro. If you're already on the Map Pilot Pro app, you can skip this step.
+**Step 7:**  Once it is detected, the phone will prompt you to connect to an existing drone app - like DJI Fly or Map Pilot Pro. Select Map Pilot Pro. If you're already on the Map Pilot Pro app, you will get a message saying "Found Aircraft   Mini3". Click 'OK'.
 
-**Step 4:** The app will display the following pop-ups. Click 'OK'.
+<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/50bf9ce6-f015-421f-b8b0-5125e68e0ea9" />
+
+**Step 8:** The app will display the following pop-ups. Click 'OK'.
 
 <img src="https://github.com/user-attachments/assets/64197afd-da05-4f4b-b12d-00610cf05977" alt="important_warning" width="500" height="225"> <br>
 
-**Step 5:** Then another pop-ups. Click 'No' as Terrain Awareness is not available in the free version.
+**Step 9:** Then another pop-ups. Click 'No' as Terrain Awareness is not available in the free version.
 
 <img src="https://github.com/user-attachments/assets/a9e559cf-f774-448a-81e3-db4e8240542d" alt="terrain_awareness" width="500" height="225"> <br>
 
-**Step 6:** You can click 'Override' on the 'Return to Home Height' pop-up to retain the set app.
+**Step 10:** You can click 'Override' on the 'Return to Home Height' pop-up to retain the set app.
 
 <img src="https://github.com/user-attachments/assets/48ac62eb-fa02-41fe-80c0-4eab6b298e9e" alt="terrain_awareness" width="500" height="225"> <br>
 
-**Step 7:** Click on 'Upload' on the top right (need different screenshot).
+**Step 11:** Click on 'Upload' on the top right (need different screenshot).
 
 <img src="https://github.com/user-attachments/assets/48ac62eb-fa02-41fe-80c0-4eab6b298e9e" alt="terrain_awareness" width="500" height="225"> <br>
 
-**Step 8:** After checking the blue line (flight path). click 'OK' on the 'Path Verification' pop-up, and then click on 'Takeoff' on the top right.
+**Step 12:** Click 'OK' on the 'Path Verification' pop-up.
 
 <img src="https://github.com/user-attachments/assets/cffd194a-0017-436e-97a6-71e4f0e1ce50" alt="terrain_awareness" width="500" height="225"> <br>
 
-**Step 9:** If the mapping is complete before the finishing up of one battery, it will show 'Mapping Complete'.  Click 'OK' on the Mapping Complete pop-up.
+**Step 13:** Inspect the blue line (flight path), then click on 'Takeoff' on the top right. Then drone would take off and take a picture at the near ground level before climbing up, and then moving on the start point of the flight path (green dot).
+
+<img src="https://github.com/user-attachments/assets/c0dbd359-94c9-407d-8b77-25828954534b" alt="terrain_awareness" width="500" height="225"> 
+
+<img width="395" height="395" alt="image" src="https://github.com/user-attachments/assets/e3d10d17-8b90-402f-8613-e38faf62e055" />
+
+**Step 14:** If the mapping is complete before the finishing up of one battery, it will show 'Mapping Complete'.  Click 'OK' on the Mapping Complete pop-up.
 
 Usually, the drone is programmed to return to home when the battery is below 20% power for the purpose of safety. There may be a way to lower this perecentage at your risk so that more of the flight path is covered at one go. 
 But it is highly recommended that you don't, as you can risk the drone crash landing.
 
-<img src="https://github.com/user-attachments/assets/bfd3aa4f-53e0-4909-b7d4-8c118e7417ec" alt="terrain_awareness" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/bfd3aa4f-53e0-4909-b7d4-8c118e7417ec" alt="mapping_complete" width="500" height="225"> <br>
 
-**Step 10:**  Pilot the drone back to the point if it has not returned to home. 
+**Step 15:**  Click on the return to home icon on the top right if the drone has not returned. As a last resort, in case the drone is not returning back on its own, take control using the joystick buttons and pilot the drone back to the home point. 
 
-**Step 11:**  Save the flight path again in case only part of the flight path has been completed or if you want to know the route the drone took back to the home point.
+Step  to  are needed only for multi-battery missions.
 
-**Potential issue:** A major issue that can affect the flight is 
+**Step 16:** The battery low alarm triggers at around 20% battery and the automatic return to home features triggers after reaching a certain threshold of battery level (less than 20%, at around 17% in our case). If this automatic feature has not been triggered, click on the return to home icon (RTH) on the top right. Any of these two will result in the pop-up "Returning Home". Click "OK".
 
+<img src="https://github.com/user-attachments/assets/06d52eea-273f-40f2-ab33-9e4add535719" alt="mapping_complete" width="500" height="225">
+<img src="https://github.com/user-attachments/assets/0f583912-e0e7-44e2-95a5-22abfc76e17e" alt="mapping_complete" width="500" height="225"> 
+
+For a multi-battery mission, it is important that either the automatic triggering or return to home button is clicked, as this will **trigger the creation of an abandonment point (dark blue dot) along the flight path where it stopped**. Manually bringing it back will likely not do this.
+<img src="https://github.com/user-attachments/assets/3ee71538-bced-4253-b7b4-46c973f598f2" alt="mapping_complete" width="500" height="225"> <br>
+
+**Step 17:** Once the drone has landed back, the app will show the pop-up <br> <br>
+"Fight 1 complete  <br><br>
+More flights are required to complete the mission". <br>
+
+Click "OK"
+
+<img src="https://github.com/user-attachments/assets/3ee71538-bced-4253-b7b4-46c973f598f2" alt="mapping_complete" width="500" height="225"> <br>
+
+**Step 18:** Now switch off the drone with a short single press and then a long press on the power button.
+
+**Step 19:** Now, replace the battery of the drone. Don't exit the Map Pilot Pro app. It will likely exit the current mission screen when the drone has been switched off, but when you click on 'New Mission' again, the flight path with the abandonment point will still be visible.
+
+**Step 20:** ![1000009309](https://github.com/user-attachments/assets/b1f911b2-1089-450e-a746-6ec0dec89532)
+
+
+**Step 21:**  Save the flight path again in case only part of the flight path has been completed or if you want to know the route the drone took back to the home point.
+
+**Potential issue:** A major issue that can affect the flight is loss of connection to the satellites, in which case the drone won't continue on the same path when connection comes back (the connection seems to drop after the number of satellites becomes 17 or less). It will show a loading icon in the center of the screen along with the number of satellites missing (as seen below).
+
+<img src="https://github.com/user-attachments/assets/7ba49f1f-6d56-48fc-89ac-e6cf2c7dc0aa" alt="potential_issue" width="500" height="225"> <br>
 
 ## Section 4: Creation of orthomosaic in WebODM
 
 WebODM is a powerful free and open-source software for the rendering of orthomosaics as well as 3D imagery from the drone photographs. It is very advanced with a lot of options to play around with to efficiently and quickly process large number of drone imagery.
-The bottleneck for processing would be the system RAM size, availability of GPU, disk space etc. Higher the RAM size, availability of good GPUs for GPU acceleration, and sufficient disk space for storage of input/output files as well as intermediate products (there is an option to delete intermediate products in WebODM while processing, for those lacking space). 
+The bottleneck for processing would be the system RAM size, availability of GPU, disk space etc. Higher the RAM size, availability of good GPUs for GPU acceleration, and sufficient disk space for storage of input/output files as well as intermediate products (there is an option to delete intermediate products in WebODM while processing, for those lacking space), faster the orthomosaic rendering. 
 
 **Step 1:** Install WebODM and dependencies
 
-WebODM works best in Linux, and also in Windows and Apple and Operating Systems (OSes). The installation procedure for all the OSes is described [here][3]. So, I am not repeating it here. Git and Docker would need to be installed for the installation of WebODM. If you have trouble installing WSL2 (Windows Subsystem for Linux 2, which is needed for running the Linux kernal within Windows), then refer to installation guide along with troubleshooting help for WSL2 [here][4].
+WebODM works best in Linux, and also in Windows and Apple Operating Systems (OSes). The installation procedure for all the OSes is described [here][3]. So, I am not repeating it here. Git and Docker would need to be installed for the installation of WebODM. If you have trouble installing WSL2 (Windows Subsystem for Linux 2, which is needed for running the Linux kernal within Windows), then refer to installation guide along with troubleshooting help for WSL2 [here][4].
 
 **Step 2:** Optimise the functioning of WebODM
 
