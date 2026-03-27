@@ -62,7 +62,7 @@ If, not zoom out of Lower Manhattan and zoom into your region of interest.
 
 **Step 12:** Long press on a portion of the screen to set your orange "Boundary" dots to cover the entire survey area. 
 
-There will be three dots in the beginning. Use these three dots to cover the entirety of the desired survey area in the first pass. After this, use the smaller orange dots to more snuggly fit the survey area. Be careful whil moving the smaller dots to avoid messing up as there is no undo or redo option. If you mess up, delete the flight path by using the dust bin icon on the top left.
+There will be three dots in the beginning. Use these three dots to cover the entirety of the desired survey area in the first pass. After this, use the smaller orange dots to more snuggly fit the survey area. But make sure that you take an extra 20-50 m buffer around your desired study region so that while creating the orthomosaics, there are no distortions at the border of the desired study area. Be careful whil moving the smaller dots to avoid messing up as there is no undo or redo option. If you mess up, delete the flight path by using the dust bin icon on the top left. 
 
 <img src="https://github.com/user-attachments/assets/9ffdd5c4-53c6-48e9-b97e-7a617a0a27c4" alt="boundary_dot" width="500" height="225"> <br> 
 
@@ -308,24 +308,34 @@ Click "OK"
 
 **Step 19:** Replace the battery of the drone. Don't exit the Map Pilot Pro app. It will likely exit the current mission screen when the drone has been switched off, but when you click on 'New Mission' again, the flight path with the abandonment point will still be visible.
 
-**Step 20:** Click on the 'Upload' icon on the top right and it will upload the remaining flight path with the points for capturing the images.
+**Step 20:** Click on the 'Upload' icon on the top right and it will upload the remaining flight path with the points for capturing the images. You may need to click on the unlock icon on the top left for this.
+
+**Step 21:** If you had kept the 'Movable Home Point' option under the 'Flight Control' settings turned on, you will get a error pop-up 'Movable Home Point Error' as the RC doesn't do any flight path related dynamic communication with the drone and instead uses the planned flight path with fixed home point that is uploaded. You can ignore the error and click on "Proceed".
 
 <img src="https://github.com/user-attachments/assets/26bf9002-4a99-4ccd-a9e7-f6ab1628608a" alt="mapping_complete" width="500" height="225">
-<img src="https://github.com/user-attachments/assets/e9579442-fb49-49a4-8fe1-73cf8f772a63" alt="mapping_complete" width="500" height="225"> <br> <br>
+<img src="https://github.com/user-attachments/assets/e8cb3fd2-52a0-4584-884a-ccf60f0bfb2b" alt="mapping_complete" width="500" height="225"> <br>
 
+**Step 22:** Click "OK" on the <br><br> "Restarting mission <br> Flight will resume at abandonment point" pop-up. <br>
+<img src="https://github.com/user-attachments/assets/e9579442-fb49-49a4-8fe1-73cf8f772a63" alt="mapping_complete" width="500" height="225"> <br>
 
-**Step 21:**  Save the flight path again in case only part of the flight path has been completed or if you want to know the route the drone took back to the home point.
+**Step 23:** Repeat steps 13-15 if the remaining portion only requires the second flight and not more than that. If there are more battery changes necessary to complete the flight path, repeat steps 13 and 16-20.
+
+**Step 24:**  Save the flight path as it will be needed for the future if repeating the same flight path.
 
 **Note:** <br> If you want to see the flight logs of any flight mission, you can go to 'File Manager' and then 'Mission Logs'.
 
 <img src="https://github.com/user-attachments/assets/fa697bed-0643-437e-8bf4-155668b20d33" alt="file_manager" width="500" height="225"> 
 <img src="https://github.com/user-attachments/assets/e129a13d-61d3-4c66-a441-585bfe4e0d9c" alt="import" width="500" height="225"> <br>
 
-In the mission logs, you will get two outputs - a csv file containing milli-second level breakdown of the flight and associated metadata like the coordinates at each point of time, RC signal and battery level, as well as a kml file of the flight path.
+In the mission logs, you will get two outputs - a csv file containing milli-second level breakdown of the flight and associated metadata like the coordinates at each point of time, RC signal and battery level, as well as a kml file of the flight path (which will also show the route the drone took to the starting point as well as back to the home point. The csv file is very detailed with 61 different fields/columns.
+
+<img src="https://github.com/user-attachments/assets/a703e765-b7a6-4010-9619-5e408578d3d8" alt="import" width="1000" height="700"> <br>
 
 If there was one battery change in between the the full flight path, then there will two csv files and two kmls for each segment of the flight path.
+The kmls in this case will look like this (on google earth imagery background), where the first image shows the initial flight and the second image shows the second section after battery replacement: 
 
-
+<img src="https://github.com/user-attachments/assets/d1dae77f-ba2b-4bf6-afb4-7196c76cb364" alt="import" width="398" height="522"> 
+<img src="https://github.com/user-attachments/assets/2715a068-9b49-4d81-857c-451cd2d2c6a1" alt="import" width="398" height="538"> <br>
 
 **Potential issue:** <br> A major issue that can affect the flight is loss of connection to the satellites, in which case the drone won't continue on the same path when connection comes back (the connection seems to drop after the number of satellites becomes 17 or less). It will show a loading icon in the center of the screen along with the number of satellites missing (as seen below).
 
@@ -333,8 +343,8 @@ If there was one battery change in between the the full flight path, then there 
 
 ## Section 4: Creation of orthomosaic in WebODM
 
-WebODM is a powerful free and open-source software for the rendering of orthomosaics as well as 3D imagery from the drone photographs. It is very advanced with a lot of options to play around with to efficiently and quickly process large number of drone imagery.
-The bottleneck for processing would be the system RAM size, availability of GPU, disk space etc. Higher the RAM size, availability of good GPUs for GPU acceleration, and sufficient disk space for storage of input/output files as well as intermediate products (there is an option to delete intermediate products in WebODM while processing, for those lacking space), faster the orthomosaic rendering. 
+WebODM is a powerful free and open-source software for the rendering of orthomosaics as well as 3D imagery from the drone photographs. It is very advanced with a lot of options to play around to efficiently and quickly process large number of drone imagery.
+The bottleneck for processing would be the system RAM size, availability of GPU, disk space etc. Higher the RAM size, availability of good GPUs for GPU acceleration, and sufficient disk space for storage of input/output files as well as intermediate products, faster the orthomosaic rendering. Note: there is an option to delete intermediate products in WebODM while processing, for those lacking space.
 
 **Step 1:** Install WebODM and dependencies
 
