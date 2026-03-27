@@ -349,7 +349,29 @@ The kmls in this case will look like this (on google earth imagery background), 
 
 **Potential issue:** <br> A major issue that can affect the flight is loss of connection to the satellites, in which case the drone won't continue on the same path when connection comes back (the connection seems to drop after the number of satellites becomes 17 or less). It will show a loading icon in the center of the screen along with the number of satellites missing (as seen below).
 
-<img src="https://github.com/user-attachments/assets/7ba49f1f-6d56-48fc-89ac-e6cf2c7dc0aa" alt="potential_issue" width="500" height="225"> <br>
+### DJI Mini 4 Pro
+
+**Step 1:** Connect the RC with the drone and enter an open ground
+
+**Step 2:** Select this option — it is the waypoint mode.
+
+<img src="https://github.com/hbot07/Drone-Phenology-Monitoring/blob/2f8553c89832045c92a51927bdbe357ce9f72b67/misc/guide_for%20_drone_tasks/images/step1.jpeg?raw=true" width="600"> <br>
+
+**Step 3:** Select this list button.
+
+<img src="https://github.com/hbot07/Drone-Phenology-Monitoring/blob/2f8553c89832045c92a51927bdbe357ce9f72b67/misc/guide_for%20_drone_tasks/images/step2.jpeg?raw=true" width="600"> <br>
+
+**Step 4:** Select the path you want to operate on as uploaded previously on DJI RC.
+
+<img src="https://github.com/hbot07/Drone-Phenology-Monitoring/blob/2f8553c89832045c92a51927bdbe357ce9f72b67/misc/guide_for%20_drone_tasks/images/step3.jpeg?raw=true" width="600"> <br>
+
+**Step 5:** It will appear like this showing the number of waypoints present. Then press **Next**.
+
+<img src="https://github.com/hbot07/Drone-Phenology-Monitoring/blob/2f8553c89832045c92a51927bdbe357ce9f72b67/misc/guide_for%20_drone_tasks/images/step4.jpeg?raw=true" width="600"> <br>
+
+**Step 6:** All the fields will already be filled as per the data configured in Map Pilot Pro. Press **Go** to make the drone fly on the selected flight path.
+
+<img src="https://github.com/hbot07/Drone-Phenology-Monitoring/blob/2f8553c89832045c92a51927bdbe357ce9f72b67/misc/guide_for%20_drone_tasks/images/step5.jpeg?raw=true" width="600"> <br>
 
 ## Section 4: Creation of orthomosaic in WebODM
 
