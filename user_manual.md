@@ -4,7 +4,7 @@ This research is carried out under the BIRD lab, ATREE, Bengaluru (PI: Rajkamal 
 
 This user manual has been primarily authored by Paul Pop (including most screenshots and images).
 
-Other contributors: Rohan Baishya, Parth Thakur, Raju, Ranjith Kumar HT and Rajkamal Goswami have contributed to this manual either through contributions to sections of the manual or verbal suggestions/recommendations. <br> <br>
+Other contributors: Rohan Baishya, Parth Thakur, Raju, and Ranjith Kumar HT have contributed directly to this manual either through contributions to sections of the manual or verbal suggestions/recommendations. <br> <br>
 
 Sections:
 
