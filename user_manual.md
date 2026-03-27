@@ -8,7 +8,7 @@ Sections:
 
 - [Section 1: Creation and export of the flight paths](#section-1-creation-and-export-of-the-flight-paths)
 - [Section 2: Uploading the flight path to the drone or drone app](#section-2-uploading-the-flight-path-to-the-drone-or-drone-app)
-  * [For DJI Mini 5 Pro](#for-dji-mini-5-pro)
+  * [For DJI Mini 5 Pro and DJI Mini 4 Pro](#for-dji-mini-5-pro-and-dji-mini-4-pro)
 - [Section 3: Flying the drone](#section-3-flying-the-drone)
   * [DJI Mini 3](#dji-mini-3)
   * [DJI Mini 4 Pro](#dji-mini-4-pro)
@@ -147,6 +147,7 @@ For details on how much distance the flight path covers, time required, the numb
 
 If you have a paid account and wants to have better terrain awareness for the flight path, click on the icon on the bottom left with one coniferous  tree and two  snow-capped mountains. It will allow you to select the digital elevation model. 
 ASTER is the worst among them for most regions. SRTM is better, but Copernicus is likely the most accurate among these three for most regions, especially the mountainous regions.
+
 <img src="https://github.com/user-attachments/assets/facc8bfc-35cf-4a65-8c5d-88302e5450f5" alt="more_details" width="500" height="225"> <br> <br>
 
 
