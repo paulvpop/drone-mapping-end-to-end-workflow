@@ -16,7 +16,7 @@ Sections:
   * [For DJI Mini 5 Pro and DJI Mini 4 Pro](#for-dji-mini-5-pro-and-dji-mini-4-pro)
 - [Section 3: Flying the drone](#section-3-flying-the-drone)
   * [DJI Mini 3](#dji-mini-3)
-  * [DJI Mini 4 Pro](#dji-mini-4-pro)
+  * [DJI Mini 4 Pro and DJI Mini 5 Pro](#dji-mini-4-pro-and-dji-mini-5-pro)
   * [Recommended practices](#recommended-practices)
     + [Largely flat terrain](#largely-flat-terrain)
 - [Section 4: Creation of orthomosaic in WebODM](#section-4-creation-of-orthomosaic-in-webodm)
@@ -241,11 +241,19 @@ You can ignore it, but ideally you would want a device with better memory, or a 
 
 **Step 2:** Once you've created the flight path, save the flight path using the floppy disk icon on top left.
 
-**Step 3:** Place the drone in a flat area with all the stones and other potential things that can hit and harm the blades removed.
+**Step 3:** Insert the drone with a fully-/very-well-charged battery.
+
+**Step 4:** Fully retract the arms of the drone containing the propellers.
+
+**Step 5:** Remove the gimbal protector.
+
+**Step 6:** Place the drone in a flat area with all the stones and other potential things that can hit and harm the blades removed.
 
 <img src="https://github.com/user-attachments/assets/3ccdd3ae-4dd7-4099-bab0-0d4ceec78132" alt="drone_on_ground" width="400" height="400"> <br>
 
-**Step 4:** Connect the mobile phone containing the Map Pilot Pro app to the RC (Remote Control) using the USB-C cable of the RC (see top right of the image below).
+**Step 7:** Remove the control sticks from the storage slots on the RC (remote controller) and screw them into place on the top of the RC.
+
+**Step 8:** Connect the mobile phone containing the Map Pilot Pro app to the RC using the USB-C cable of the RC after pulling it out from the slot (see top right of the image below).
 
 <img width="350" height="350" alt="rc-cable" src="https://github.com/user-attachments/assets/74d0cca3-d14e-4b95-a142-ce4fd304f961" /> <br>
 
@@ -273,7 +281,7 @@ Now the the drone will be detected by the mobile phone.
 
 <img src="https://github.com/user-attachments/assets/64197afd-da05-4f4b-b12d-00610cf05977" alt="important_warning" width="500" height="225"> <br>
 
-**Step 9:** Then another pop-ups. Click 'No' as Terrain Awareness is not available in the free version.
+**Step 9:** Then another pop-up. Click 'No' as Terrain Awareness is not available in the free version.
 
 <img src="https://github.com/user-attachments/assets/a9e559cf-f774-448a-81e3-db4e8240542d" alt="terrain_awareness" width="500" height="225"> <br>
 
@@ -281,7 +289,7 @@ Now the the drone will be detected by the mobile phone.
 
 <img src="https://github.com/user-attachments/assets/48ac62eb-fa02-41fe-80c0-4eab6b298e9e" alt="rth-override" width="500" height="225"> <br>
 
-**Step 11:** Click on 'Upload' on the top right (need different screenshot).
+**Step 11:** Click on 'Upload' on the top right.
 
 <img src="https://github.com/user-attachments/assets/48ac62eb-fa02-41fe-80c0-4eab6b298e9e" alt="upload" width="500" height="225"> <br>
 
@@ -289,16 +297,16 @@ Now the the drone will be detected by the mobile phone.
 
 <img src="https://github.com/user-attachments/assets/cffd194a-0017-436e-97a6-71e4f0e1ce50" alt="path-verification" width="500" height="225"> <br>
 
-**Step 13:** Inspect the blue line (flight path), then click on 'Takeoff' on the top right. Then drone would take off and take a picture at the near ground level before climbing up, and then moving on the start point of the flight path (green dot).
+**Step 13:** Inspect the blue line (flight path), then click on 'Takeoff' on the top right. Then the drone would take off and take a picture at the near ground level before climbing up, and then move to the start point of the flight path (green dot).
 
 <img src="https://github.com/user-attachments/assets/c0dbd359-94c9-407d-8b77-25828954534b" alt="takeoff" width="500" height="225"> 
 
 <img width="395" height="395" alt="image" src="https://github.com/user-attachments/assets/e3d10d17-8b90-402f-8613-e38faf62e055" />
 
-**Step 14:** If the mapping is complete before the finishing up of one battery, it will show 'Mapping Complete'.  Click 'OK' on the Mapping Complete pop-up.
+**Step 14:** If the mapping is complete before the finishing up of one battery, it will show 'Mapping Complete'. Click 'OK' on the Mapping Complete pop-up.
 
 Usually, the drone is programmed to return to home when the battery is below 20% power for the purpose of safety. There may be a way to lower this perecentage at your risk so that more of the flight path is covered at one go. 
-But it is highly recommended that you don't, as you can risk the drone crash landing.
+But it is highly recommended that you don't, as you can risk the drone crash-landing.
 
 <img src="https://github.com/user-attachments/assets/bfd3aa4f-53e0-4909-b7d4-8c118e7417ec" alt="mapping_complete" width="500" height="225"> <br>
 
@@ -306,7 +314,7 @@ But it is highly recommended that you don't, as you can risk the drone crash lan
 
 *Step 16 to 23 are needed only for multi-battery missions.*
 
-**Step 16:** The battery low alarm triggers at around 20% battery and the automatic return to home features triggers after reaching a certain threshold of battery level (less than 20%, at around 17% in our case). If this automatic feature has not been triggered, click on the return to home icon (RTH) on the top right. Any of these two will result in the pop-up "Returning Home". Click "OK". In one of the flights, we found that majority of the flight path of the estimated 5.53 km (it was actually less than that) and 9.4 hectares, had been completed with just one battery, using around 72% of the battery (from 89 to 17 per cent). So, it's possible to cover a relatively large flight path with just one battery as long as it is fully charged.
+**Step 16:** The battery low alarm triggers at around 20% battery and the automatic return to home features triggers after reaching a certain threshold of battery level (less than 20%, at around 17% in our case). If this automatic feature has not been triggered, click on the return to home icon (RTH) on the top right. Any of these two will result in the pop-up "Returning Home". Click "OK". In one of the flights, we found that majority of the flight path of the estimated 5.53 km (it was actually less than that) and 9.4 hectares, had been completed with just one battery, using around 72% of the battery (from 89 to 17 per cent). It lasted for a little over 28 minutes. So, it's possible to cover a relatively large flight path with just one battery as long as it is fully charged.
 
 <img src="https://github.com/user-attachments/assets/06d52eea-273f-40f2-ab33-9e4add535719" alt="white-plus-grey-path" width="500" height="225">
 <img src="https://github.com/user-attachments/assets/0f583912-e0e7-44e2-95a5-22abfc76e17e" alt="returning-home" width="500" height="225"> 
@@ -322,13 +330,13 @@ Click "OK"
 
 <img src="https://github.com/user-attachments/assets/b1f911b2-1089-450e-a746-6ec0dec89532" alt="flight-1-complete" width="500" height="225"> <br>
 
-**Step 18:** Now switch off the drone with a short single press and then a long press on the power button.
+**Step 18:** Now switch off the drone with a short single press and then a long press of the power button.
 
 **Step 19:** Replace the battery of the drone. Don't exit the Map Pilot Pro app. It will likely exit the current mission screen when the drone has been switched off, but when you click on 'New Mission' again, the flight path with the abandonment point will still be visible.
 
 **Step 20:** Click on the 'Upload' icon on the top right and it will upload the remaining flight path with the points for capturing the images. You may need to click on the unlock icon on the top left for this.
 
-**Step 21:** If you had kept the 'Movable Home Point' option under the 'Flight Control' settings turned on, you will get a error pop-up 'Movable Home Point Error' as the RC doesn't do any flight path related dynamic communication with the drone and instead uses the planned flight path with fixed home point that is uploaded. You can ignore the error and click on "Proceed".
+**Step 21:** If you had kept the 'Movable Home Point' option under the 'Flight Control' settings turned on, you will get a error pop-up 'Movable Home Point Error'. You can ignore the error and click on "Proceed".
 
 <img src="https://github.com/user-attachments/assets/26bf9002-4a99-4ccd-a9e7-f6ab1628608a" alt="movable-home-point-error" width="500" height="225">
 <img src="https://github.com/user-attachments/assets/e8cb3fd2-52a0-4584-884a-ccf60f0bfb2b" alt="settings-movable-home-point" width="500" height="225"> <br>
@@ -336,7 +344,7 @@ Click "OK"
 **Step 22:** Click "OK" on the <br><br> "Restarting mission <br> Flight will resume at abandonment point" pop-up. <br>
 <img src="https://github.com/user-attachments/assets/e9579442-fb49-49a4-8fe1-73cf8f772a63" alt="restarting-mission" width="500" height="225"> <br>
 
-**Step 23:** Repeat steps 13-15 if the remaining portion only requires the second flight and not more than that. If there are more battery changes necessary to complete the flight path, repeat steps 13 and 16-20.
+**Step 23:** Repeat steps 13-15 if the remaining portion only requires the second flight and not more than that. If more battery changes are necessary to complete the flight path, repeat steps 13 and 16-20.
 
 **Step 24:**  Save the flight path as it will be needed for the future if repeating the same flight path.
 
@@ -366,17 +374,19 @@ The kmls in this case will look like this (on google earth imagery background), 
 
 **Potential issue:** <br> A major issue that can affect the flight is loss of connection to the satellites, in which case the drone won't continue on the same path when connection comes back (the connection seems to drop after the number of satellites becomes 17 or less). It will show a loading icon in the center of the screen along with the number of satellites missing (as seen below).
 
-### DJI Mini 4 Pro
+<img src="https://github.com/user-attachments/assets/c3c9ea18-75cd-4017-828c-f112817cd62c" alt="file_manager" width="500" height="225"> 
+
+### DJI Mini 4 Pro and DJI Mini 5 Pro
 
 *Parth Thakur has contributed this section.*
 
-**Step 1:** Connect the RC with the drone and enter an open ground
+**Step 1:** Connect the RC with the drone and enter an open ground.
 
-**Step 2:** Select this option — it is the waypoint mode.
+**Step 2:** Select the option in the red circle — it is the waypoint mode.
 
 <img src="https://github.com/hbot07/Drone-Phenology-Monitoring/blob/2f8553c89832045c92a51927bdbe357ce9f72b67/misc/guide_for%20_drone_tasks/images/step1.jpeg?raw=true" width="600"> <br>
 
-**Step 3:** Select this list button.
+**Step 3:** Select this list button in the red circle.
 
 <img src="https://github.com/user-attachments/assets/ca87334a-80de-42b0-aab1-334171386a9a" width="600"> <br>
 
@@ -394,13 +404,13 @@ The kmls in this case will look like this (on google earth imagery background), 
 
 ### Recommended practices
 
-Time of the day: In all kinds of habitats, it is recommended that one chooses the day of the time when there is zero or very minimal shadows when flying the drone so that the stitched orthomosaics will not have shadows. This recommendation assumes that you're not specifically studying shadows itself or the impact of shadows on some feature such as the classification of trees. The time of the day will likely be noon. In case, it is overcast but there is sufficiently good lighting, it may not be noon and images can likely be taken throughout much of the day.
+Time of the day: In all kinds of habitats, it is recommended that one chooses the day of the time when there is zero or very minimal shadow when flying the drone so that the stitched orthomosaics will not have shadows. This recommendation assumes that you're not specifically studying shadows itself or the impact of shadows on some feature such as the classification of trees. The time of the day will likely be noon. In case it is overcast but there is sufficiently good lighting, the images need not be taken at noon and images can likely be taken throughout much of the day.
 
 Wind: In all kinds of habitats, it is recommended to fly the drone only when there is no or very limited winds. Ideally, all the objects and organisms in the area are stationary. But it is also okay if the winds rustles the leaves a bit, but it should be swaying branches. If the latter, don't capture images as the orthomosaics will have distortions due to moving control points (like the branches of the trees). In case of heavy winds, the drone itself will likely warn you and return to home. In windy conditions, more battery charge may also be drained due to the energy required to fight against the wind to maintain position and speed.
 
 #### Largely flat terrain
 
-In largely flat terrain such as the Deccan thorn shrub forest ecoregion, the best practices include:
+In a largely flat terrain such as the Deccan thorn shrub forest ecoregion, the best practices include:
 
 Season: If going for two seasons, March to April (dry season) and September to October (green season) is recommended.
 
@@ -411,11 +421,13 @@ Altitude/Height: Since most areas dont have much obstacles and the area is large
 WebODM is a powerful free and open-source software for the rendering of orthomosaics as well as 3D imagery from the drone photographs. It is very advanced with a lot of options to play around to efficiently and quickly process large number of drone imagery.
 The bottleneck for processing would be the system RAM size, availability of GPU, disk space etc. Higher the RAM size, availability of good GPUs for GPU acceleration, and sufficient disk space for storage of input/output files as well as intermediate products, faster the orthomosaic rendering. Note: there is an option to delete intermediate products in WebODM while processing, for those lacking space.
 
-**Step 1:** Install WebODM and dependencies
+I have tested the orthomosaic creation in both Linux and Windows Operating Systems (OSes). GPU acceleration would need to be set up in Windows for trouble-free orthomosaic creation, especially for larger orthomosaics.
 
-WebODM works best in Linux, and also in Windows and Apple Operating Systems (OSes). The installation procedure for all the OSes is described [here][3]. So, I am not repeating it here. Git and Docker would need to be installed for the installation of WebODM. If you have trouble installing WSL2 (Windows Subsystem for Linux 2, which is needed for running the Linux kernal within Windows), then refer to installation guide along with troubleshooting help for WSL2 [here][4].
+**Step 1:** Install WebODM and dependencies.
 
-**Step 2:** Optimise the functioning of WebODM
+WebODM works best in Linux, and also in Windows and Apple OSes. The installation procedure for all the OSes is described [here][3]. So, I am not repeating it here. Git and Docker would need to be installed for the installation of WebODM. If you have trouble installing WSL2 (Windows Subsystem for Linux 2, which is needed for running the Linux kernal within Windows), then refer to installation guide along with troubleshooting help for WSL2 [here][4].
+
+**Step 2:** Optimise the functioning of WebODM.
 
 If using Windows, you can allocate more memory by searching for WSL Settings...
 
@@ -425,24 +437,24 @@ If using Windows, you can allocate more memory by searching for WSL Settings...
 
 <img src="https://github.com/user-attachments/assets/29cda4bd-4aed-40b3-93bc-d2f81d8f8f03" alt="search_wsl_settings" width="800" height="525"> <br>
 
-**Step 3:** Launch WebODM
+**Step 3:** Launch WebODM.
 
 Once you follow the instructions for installation, you can launch WebODM from the Bash/Git Bash/other command line interface and open WebODM in a browser at "http://localhost:xxxx/". 
 Make sure you have Docker (Dekstop) running before launcing WebODM as it will not launch successfully without it.
 
-**Step 4:** Create a WebODM account
+**Step 4:** Create a WebODM account.
 
 Create an account. You can log in and log out any time. If you close the browser without logging out, you will be logged in and won't have to log in again the next time you launch WebODM.
 
-**Step 5:** Click on 'Select Images and GCP'
+**Step 5:** Click on 'Select Images and GCP'.
 
 <img width="1907" height="427" alt="image" src="https://github.com/user-attachments/assets/bea593f3-d275-48c4-abaf-a4391e05ccca" /> <br>
 
-**Step 6:** Navigate to the folder containing all the images from a flight path, select all of them, and 'Open'
+**Step 6:** Navigate to the folder containing all the images from a flight path, select all of them, and 'Open'.
 
 <img width="1342" height="668" alt="image" src="https://github.com/user-attachments/assets/0f69ad78-c530-4a9f-91e4-b4df646f1762" />
 
-**Step 7:** Edit the parameters as required before starting processing, by clicking on 'Edit' under 'Options'
+**Step 7:** Edit the parameters as required before starting processing, by clicking on 'Edit' under 'Options'.
 
 <img width="1616" height="781" alt="image" src="https://github.com/user-attachments/assets/80f47048-6b35-4260-8938-36664c0571e8" />
 
@@ -459,17 +471,17 @@ Enabling optimise-disk-space deletes intermediate files to optimise the disk spa
 
 <img src="https://github.com/user-attachments/assets/3178f3b6-c6f9-475e-a3e2-ea66cc4ad84e" width="450" height="900"> <br>
 
-**Step 8:** Click on 'Review' and 'Start Processing' (make sure you're not running other computationally heavy processes like using QGIS or having many tabs open in the browser)
+**Step 8:** Click on 'Review' and 'Start Processing' (make sure you're not running other computationally heavy processes like using QGIS or having many tabs open in the browser).
 
 <img width="1616" height="781" alt="image" src="https://github.com/user-attachments/assets/80f47048-6b35-4260-8938-36664c0571e8" />
 
 <img width="1603" height="764" alt="Screenshot 2026-03-11 202144" src="https://github.com/user-attachments/assets/b7d5926e-9ca4-4e63-9653-cec1f1edf466" /> <br>
 
-It will show a blue loading bar which shows the progress of uploading the images
+It will show a blue loading bar which shows the progress of uploading the images.
 
 <img width="1621" height="319" alt="image" src="https://github.com/user-attachments/assets/eff8e8f6-dabe-4c2e-8618-975c80651071" />
 
-Once uploaded, the task starts. You can tunr 'On' the 'Task Output:' to see each and every step in real time.
+Once uploaded, the task starts. You can turn 'On' the 'Task Output:' to see each and every step in real time.
 
 <img width="1624" height="565" alt="image" src="https://github.com/user-attachments/assets/7f3c48a1-ddaa-4f18-ba92-53ae3e0f1386" /> <br>
 
