@@ -9,6 +9,8 @@ Other contributors: Rohan Baishya, Parth Thakur, Raju, Ranjith Kumar HT, and Raj
 *Version 1.0 - last updated 2026-03-30* <br>
 *Last update - recommended practices*
 
+View the most current version at https://github.com/paulvpop/drone-mapping-end-to-end-workflow/blob/main/user_manual.md
+
 Sections:
 
 - [Section 1: Creation and export of the flight paths](#section-1-creation-and-export-of-the-flight-paths)
