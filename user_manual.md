@@ -80,12 +80,12 @@ There will be three dots in the beginning. Use these three dots to cover the ent
 
 <img src="https://github.com/user-attachments/assets/9ffdd5c4-53c6-48e9-b97e-7a617a0a27c4" alt="boundary_dot" width="500" height="225"> <br> 
 
-**(optional) Step 13:** If you want this flight plan to be accessible later on, click on the floppy disk icon on the top left, name it and save the mission/flight path. **This is needed for long-term consistent mapping of the same region across seasons and years.**
+**Step 13:** If you want this flight plan to be accessible later on, click on the floppy disk icon on the top left, name it and save the mission/flight path. **This is needed for long-term consistent mapping of the same region across seasons and years.**
 
 <img src="https://github.com/user-attachments/assets/536def51-7930-44b8-89c2-0d924cc9727a" alt="rename" width="500" height="225">
 <img src="https://github.com/user-attachments/assets/552b49f1-b056-4cb2-9cfa-b738aebd8c41" alt="renamed" width="500" height="225"> <br> <br>
 
-**Step 14:** Click on the drone/airplane icon on the top right and click on the 'Export' icon
+**Step 14:** Click on the drone/airplane icon on the top right and click on the 'Export' icon.
 
 <img src="https://github.com/user-attachments/assets/7d956515-797e-4cb0-bd72-4ba52b86545e" alt="drone_icon" width="500" height="225">
 <img src="https://github.com/user-attachments/assets/b86194ae-5043-44f1-8ca8-1db8cfb20dd5" alt="export" width="500" height="225"> <br> <br>
@@ -229,11 +229,11 @@ The kmz file created in Map Pilot Pro should be visible now in the saved waypoin
 
 _The screenshots for this section were largely contributed by Raju._
 
-Note that if you're opening the Map Pilot Pro app in a device with 4 GB and/or a lot of it is in use, you will get a warning like this:
+Note: If you're opening the Map Pilot Pro app in a device with 4 GB and/or a lot of it is in use, you will get a warning like this:
 
 <img src="https://github.com/user-attachments/assets/3153e1f8-11b3-404e-ab2a-3256c3205bd7" alt="memory_warning" width="500" height="225"> <br>
 
-You can ignore it, but ideally you would want a device with better memory.
+You can ignore it, but ideally you would want a device with better memory, or a lot of the 4 GB free to use.
 
 **Step 1:** As there is no way to export a created flight path to the Map Pilot Pro app in the free version, one has to create the flight path in the field. Follow section 1 to create the flight path, and input the right altitude, speed, overlap etc.
 
@@ -243,29 +243,29 @@ You can ignore it, but ideally you would want a device with better memory.
 
 <img src="https://github.com/user-attachments/assets/3ccdd3ae-4dd7-4099-bab0-0d4ceec78132" alt="drone_on_ground" width="400" height="400"> <br>
 
-**Step 4:** Connect the mobile phone containing the Map Pilot Pro app to the RC (Remote Control) using the cable of the RC (see top right of the image below).
+**Step 4:** Connect the mobile phone containing the Map Pilot Pro app to the RC (Remote Control) using the USB-C cable of the RC (see top right of the image below).
 
-<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/74d0cca3-d14e-4b95-a142-ce4fd304f961" /> <br>
+<img width="350" height="350" alt="rc-cable" src="https://github.com/user-attachments/assets/74d0cca3-d14e-4b95-a142-ce4fd304f961" /> <br>
 
 **Step 5:** Switch on the RC by single pressing the power button (the button on the right below) followed by a long press. This will show a brief flash of green (after single short press) and then permanent green light (after long press).
 
-<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/29344496-9b4a-4488-8c31-ced0fb24b3f0" />
-<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/ae986ec4-cefa-44c7-a8d0-f3053f444797" /> <br>
+<img width="350" height="350" alt="short-press" src="https://github.com/user-attachments/assets/29344496-9b4a-4488-8c31-ced0fb24b3f0" />
+<img width="350" height="350" alt="long-press" src="https://github.com/user-attachments/assets/ae986ec4-cefa-44c7-a8d0-f3053f444797" /> <br>
 
 If you are already on the Map Pilot Pro app of the phone, it will show the following message: "Connected for charging only. Tap the USB notification to use USB for transferring files." You can change the setting if you fear any significant battery drainage of the RC by the mobile phone (there won't be). So, you can ignore this and not change anything. The connection to the RC will work whether you change the transfer settings or not.
 
-<img width="500" height="225" alt="image" src="https://github.com/user-attachments/assets/00445071-171b-4309-b0ca-94fe6ff1f376" /> <br>
+<img width="500" height="225" alt="connected-for-charging" src="https://github.com/user-attachments/assets/00445071-171b-4309-b0ca-94fe6ff1f376" /> <br>
 
 **Step 6:** Switch on the drone by single pressing the power button (the button on the center of the drone) followed by a long press. This will show a brief flash of green (after single short press) and then permanent green light (after long press).
 
-<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/97416827-b12a-4873-afcb-b8a8a2dc251b" />
-<img width="395" height="395" alt="image" src="https://github.com/user-attachments/assets/cb012e6d-c8de-41d3-b5a0-55ff6cba7c91" /> <br>
+<img width="350" height="350" alt="short-press" src="https://github.com/user-attachments/assets/97416827-b12a-4873-afcb-b8a8a2dc251b" />
+<img width="395" height="395" alt="long-press" src="https://github.com/user-attachments/assets/cb012e6d-c8de-41d3-b5a0-55ff6cba7c91" /> <br>
 
 Now the the drone will be detected by the mobile phone. 
 
 **Step 7:**  Once it is detected, the phone will prompt you to connect to an existing drone app - like DJI Fly or Map Pilot Pro. Select Map Pilot Pro. If you're already on the Map Pilot Pro app, you will get a message saying "Found Aircraft   Mini3". Click 'OK'.
 
-<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/50bf9ce6-f015-421f-b8b0-5125e68e0ea9" />
+<img width="350" height="350" alt="found-aircraft" src="https://github.com/user-attachments/assets/50bf9ce6-f015-421f-b8b0-5125e68e0ea9" />
 
 **Step 8:** The app will display the following pop-ups. Click 'OK'.
 
@@ -277,19 +277,19 @@ Now the the drone will be detected by the mobile phone.
 
 **Step 10:** You can click 'Override' on the 'Return to Home Height' pop-up to retain the set app.
 
-<img src="https://github.com/user-attachments/assets/48ac62eb-fa02-41fe-80c0-4eab6b298e9e" alt="terrain_awareness" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/48ac62eb-fa02-41fe-80c0-4eab6b298e9e" alt="rth-override" width="500" height="225"> <br>
 
 **Step 11:** Click on 'Upload' on the top right (need different screenshot).
 
-<img src="https://github.com/user-attachments/assets/48ac62eb-fa02-41fe-80c0-4eab6b298e9e" alt="terrain_awareness" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/48ac62eb-fa02-41fe-80c0-4eab6b298e9e" alt="upload" width="500" height="225"> <br>
 
 **Step 12:** Click 'OK' on the 'Path Verification' pop-up.
 
-<img src="https://github.com/user-attachments/assets/cffd194a-0017-436e-97a6-71e4f0e1ce50" alt="terrain_awareness" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/cffd194a-0017-436e-97a6-71e4f0e1ce50" alt="path-verification" width="500" height="225"> <br>
 
 **Step 13:** Inspect the blue line (flight path), then click on 'Takeoff' on the top right. Then drone would take off and take a picture at the near ground level before climbing up, and then moving on the start point of the flight path (green dot).
 
-<img src="https://github.com/user-attachments/assets/c0dbd359-94c9-407d-8b77-25828954534b" alt="terrain_awareness" width="500" height="225"> 
+<img src="https://github.com/user-attachments/assets/c0dbd359-94c9-407d-8b77-25828954534b" alt="takeoff" width="500" height="225"> 
 
 <img width="395" height="395" alt="image" src="https://github.com/user-attachments/assets/e3d10d17-8b90-402f-8613-e38faf62e055" />
 
@@ -302,15 +302,15 @@ But it is highly recommended that you don't, as you can risk the drone crash lan
 
 **Step 15:**  Click on the return to home icon on the top right if the drone has not returned. As a last resort, in case the drone is not returning back on its own, take control using the joystick buttons and pilot the drone back to the home point. 
 
-*Step  to  are needed only for multi-battery missions.*
+*Step 16 to 23 are needed only for multi-battery missions.*
 
 **Step 16:** The battery low alarm triggers at around 20% battery and the automatic return to home features triggers after reaching a certain threshold of battery level (less than 20%, at around 17% in our case). If this automatic feature has not been triggered, click on the return to home icon (RTH) on the top right. Any of these two will result in the pop-up "Returning Home". Click "OK". In one of the flights, we found that majority of the flight path of the estimated 5.53 km (it was actually less than that) and 9.4 hectares, had been completed with just one battery, using around 72% of the battery (from 89 to 17 per cent). So, it's possible to cover a relatively large flight path with just one battery as long as it is fully charged.
 
-<img src="https://github.com/user-attachments/assets/06d52eea-273f-40f2-ab33-9e4add535719" alt="mapping_complete" width="500" height="225">
-<img src="https://github.com/user-attachments/assets/0f583912-e0e7-44e2-95a5-22abfc76e17e" alt="mapping_complete" width="500" height="225"> 
+<img src="https://github.com/user-attachments/assets/06d52eea-273f-40f2-ab33-9e4add535719" alt="white-plus-grey-path" width="500" height="225">
+<img src="https://github.com/user-attachments/assets/0f583912-e0e7-44e2-95a5-22abfc76e17e" alt="returning-home" width="500" height="225"> 
 
 For a multi-battery mission, it is important that either the automatic triggering or return to home button is clicked, as this will **trigger the creation of an abandonment point (dark blue dot) along the flight path where it stopped**. Manually bringing it back will likely not do this.
-<img src="https://github.com/user-attachments/assets/3ee71538-bced-4253-b7b4-46c973f598f2" alt="mapping_complete" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/3ee71538-bced-4253-b7b4-46c973f598f2" alt="abandonment-point" width="500" height="225"> <br>
 
 **Step 17:** Once the drone has landed back, the app will show the pop-up <br> <br>
 "Fight 1 complete  <br><br>
@@ -318,7 +318,7 @@ More flights are required to complete the mission". <br>
 
 Click "OK"
 
-<img src="https://github.com/user-attachments/assets/b1f911b2-1089-450e-a746-6ec0dec89532" alt="mapping_complete" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/b1f911b2-1089-450e-a746-6ec0dec89532" alt="flight-1-complete" width="500" height="225"> <br>
 
 **Step 18:** Now switch off the drone with a short single press and then a long press on the power button.
 
@@ -328,11 +328,11 @@ Click "OK"
 
 **Step 21:** If you had kept the 'Movable Home Point' option under the 'Flight Control' settings turned on, you will get a error pop-up 'Movable Home Point Error' as the RC doesn't do any flight path related dynamic communication with the drone and instead uses the planned flight path with fixed home point that is uploaded. You can ignore the error and click on "Proceed".
 
-<img src="https://github.com/user-attachments/assets/26bf9002-4a99-4ccd-a9e7-f6ab1628608a" alt="mapping_complete" width="500" height="225">
-<img src="https://github.com/user-attachments/assets/e8cb3fd2-52a0-4584-884a-ccf60f0bfb2b" alt="mapping_complete" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/26bf9002-4a99-4ccd-a9e7-f6ab1628608a" alt="movable-home-point-error" width="500" height="225">
+<img src="https://github.com/user-attachments/assets/e8cb3fd2-52a0-4584-884a-ccf60f0bfb2b" alt="settings-movable-home-point" width="500" height="225"> <br>
 
 **Step 22:** Click "OK" on the <br><br> "Restarting mission <br> Flight will resume at abandonment point" pop-up. <br>
-<img src="https://github.com/user-attachments/assets/e9579442-fb49-49a4-8fe1-73cf8f772a63" alt="mapping_complete" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/e9579442-fb49-49a4-8fe1-73cf8f772a63" alt="restarting-mission" width="500" height="225"> <br>
 
 **Step 23:** Repeat steps 13-15 if the remaining portion only requires the second flight and not more than that. If there are more battery changes necessary to complete the flight path, repeat steps 13 and 16-20.
 
@@ -341,26 +341,26 @@ Click "OK"
 **Note:** <br> If you want to see the flight logs of any flight mission, you can go to 'File Manager' and then 'Mission Logs'.
 
 <img src="https://github.com/user-attachments/assets/fa697bed-0643-437e-8bf4-155668b20d33" alt="file_manager" width="500" height="225"> 
-<img src="https://github.com/user-attachments/assets/e129a13d-61d3-4c66-a441-585bfe4e0d9c" alt="import" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/e129a13d-61d3-4c66-a441-585bfe4e0d9c" alt="mission-logs" width="500" height="225"> <br>
 
 If you had kept auto deletion disabled, you will get a pop-up. You can press "OK". It's best to not auto delete logs if you think that logs will be useful for your research or replication of the flight in the same manner.
 
-<img src="https://github.com/user-attachments/assets/aa650d8d-edb3-42b6-a8b9-8aed17a8b98b" alt="import" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/aa650d8d-edb3-42b6-a8b9-8aed17a8b98b" alt="auto-deletion-disabled" width="500" height="225"> <br>
 
 You can go to specific missions which will show the multiple segments (if a multi-battery mission), and you can export them (export pop-up will only show the csv, but kml will also be exported along with it irrespective of whether you keep the 'Show KML' option turned on or not).
-<img src="https://github.com/user-attachments/assets/4ecab817-33ac-4f2f-97b9-20b2c8287b50" alt="import" width="500" height="225">
-<img src="https://github.com/user-attachments/assets/e09867cb-7ac7-4243-b784-68e31482438e" alt="import" width="500" height="225">
-<img src="https://github.com/user-attachments/assets/4fb84be5-1d9e-42d6-9447-1d7efa4d02cb" alt="import" width="500" height="225"> <br>
+<img src="https://github.com/user-attachments/assets/4ecab817-33ac-4f2f-97b9-20b2c8287b50" alt="single-part-of-multi-battery-mission-logs" width="500" height="225">
+<img src="https://github.com/user-attachments/assets/e09867cb-7ac7-4243-b784-68e31482438e" alt="show-kml" height="225">
+<img src="https://github.com/user-attachments/assets/4fb84be5-1d9e-42d6-9447-1d7efa4d02cb" alt="share-flight-log" width="500" height="225"> <br>
 
 In the mission logs, you will get two outputs - a csv file containing milli-second level breakdown of the flight and associated metadata like the coordinates at each point of time, RC signal and battery level, as well as a kml file of the flight path (which will also show the route the drone took to the starting point as well as back to the home point. The csv file is very detailed with 61 different fields/columns.
 
-<img src="https://github.com/user-attachments/assets/a703e765-b7a6-4010-9619-5e408578d3d8" alt="import" width="1000" height="700"> <br>
+<img src="https://github.com/user-attachments/assets/a703e765-b7a6-4010-9619-5e408578d3d8" alt="csv-log" width="1000" height="700"> <br>
 
 If there was one battery change in between the the full flight path, then there will two csv files and two kmls for each segment of the flight path.
 The kmls in this case will look like this (on google earth imagery background), where the first image shows the initial flight and the second image shows the second section after battery replacement: 
 
-<img src="https://github.com/user-attachments/assets/d1dae77f-ba2b-4bf6-afb4-7196c76cb364" alt="import" width="398" height="522"> 
-<img src="https://github.com/user-attachments/assets/2715a068-9b49-4d81-857c-451cd2d2c6a1" alt="import" width="398" height="538"> <br>
+<img src="https://github.com/user-attachments/assets/d1dae77f-ba2b-4bf6-afb4-7196c76cb364" alt="flight-path-part-1" width="398" height="522"> 
+<img src="https://github.com/user-attachments/assets/2715a068-9b49-4d81-857c-451cd2d2c6a1" alt="flight-path-part-2" width="398" height="538"> <br>
 
 **Potential issue:** <br> A major issue that can affect the flight is loss of connection to the satellites, in which case the drone won't continue on the same path when connection comes back (the connection seems to drop after the number of satellites becomes 17 or less). It will show a loading icon in the center of the screen along with the number of satellites missing (as seen below).
 
