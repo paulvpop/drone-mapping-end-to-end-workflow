@@ -1,10 +1,13 @@
-This user manual describes the process of creating flight paths, flying the drones over these flight paths, and creating orthomosaics of imagery collected from these planned missions.
+This user manual describes the process of creating flight paths, uploading the fligh paths, flying the drones over these flight paths, and creating orthomosaics of imagery collected from these planned missions.
 
-This research is carried out under the BIRD lab, ATREE, Bengaluru (PI: Rajkamal Goswami), with some ongoining techical support from Aaditeshwar Seth's team working on drones (Jayakrishna, Gaurav Rajput, Parth Thakur, and Raman Kumar) at IIT Delhi.
+This research is carried out under the BIRD lab, ATREE, Bengaluru (PI: Rajkamal Goswami), with some ongoining techical support from Aaditeshwar Seth's team working on drones (Jayakrishna, Gaurav Rajput, Parth Thakur, and Raman Kumar) at IIT Delhi. The field tests and research are being carried out in the Bagepalli and Arunachal Pradesh study sites.
 
-This user manual has been primarily authored by Paul Pop (including most screenshots and images).
+This user manual has been primarily authored by Paul Pop (including most text, screenshots and images).
 
 Other contributors: Rohan Baishya, Parth Thakur, Raju, Ranjith Kumar HT, and Rajkamal Goswami have contributed directly to this manual either through contributions to sections of the manual or verbal suggestions/recommendations. <br> <br>
+
+*Version 1.0 - last updated 2026-03-30* <br>
+*Last update - recommended practices*
 
 Sections:
 
@@ -16,7 +19,6 @@ Sections:
   * [DJI Mini 4 Pro](#dji-mini-4-pro)
   * [Recommended practices](#recommended-practices)
     + [Largely flat terrain](#largely-flat-terrain)
-    + [Largely hilly terrain](#largely-hilly-terrain)
 - [Section 4: Creation of orthomosaic in WebODM](#section-4-creation-of-orthomosaic-in-webodm)
 
 <br>
@@ -48,7 +50,7 @@ Without this, you will only be able to export the flight paths in the mme (maps 
 
 <img src="https://github.com/user-attachments/assets/fa697bed-0643-437e-8bf4-155668b20d33" alt="map_pilot_pro_screen" width="500" height="225"> <br>
 
-**Step 7:** Click 'OK' on both the pop-ups
+**Step 7:** Click 'OK' on both the pop-ups.
 
 <img src="https://github.com/user-attachments/assets/13f593b0-dbba-4605-878b-0fa0e30025e9" alt="pop_up_1" width="500" height="225"> 
 <img src="https://github.com/user-attachments/assets/4149b588-dd0e-4253-a2b9-cb26570a1ca2" alt="pop_up_2" width="500" height="225"> <br> <br>
@@ -56,13 +58,13 @@ Without this, you will only be able to export the flight paths in the mme (maps 
 **Step 8:** Move the viewport (the region of the map the app shows to you) to the desired flight path region.
 
 By default, the location in the viewport will be Lower Manhattan. If your drone flight location is close to where you're right now, you can turn on your phone GPS and it will automatically move to that area.
-If, not zoom out of Lower Manhattan and zoom into your region of interest.
+If not, zoom out of Lower Manhattan and zoom into your region of interest.
 
 <img src="https://github.com/user-attachments/assets/f6a662a2-80d1-467c-9971-58c1a3f4d233" alt="default_viewport" width="500" height="225"> 
 <img src="https://github.com/user-attachments/assets/aaf5bd08-a6fb-41ec-8aab-9a1dcff34862" alt="zoomed_out_viewport" width="500" height="225"> 
 <img src="https://github.com/user-attachments/assets/28fb3231-44aa-4aa4-beba-4ce98da2424d" alt="zoomed_in_roi" width="500" height="225"> <br> <br>
 
-**Step 9:** Specify the altitude (80 m is generally ideal to avoid obstacles but keep reasonably high resolution imagery), speed (slow speeds of 3 m/s or less is recommended for clear capture of images), and overlap (80% overlap in the front and sides (80/80) is recommended. For class specific recommendations, you can visit read [this article][1]).Click on 'Norm Mission' and then 'Normal'. 
+**Step 9:** Specify the altitude (80 m is generally ideal to avoid obstacles but keep reasonably high resolution imagery), speed (slow speeds of 3 m/s or less is recommended for clear capture of images), and overlap (80% overlap in the front and sides (80/80) is recommended. For class specific recommendations, you can visit read [this article][1]). Click on 'Norm Mission' and then 'Normal'. 
 
 <img src="https://github.com/user-attachments/assets/21a01ea1-84cc-4078-92fc-60c043bfb61e" alt="norm_mission" width="500" height="225"> <br> 
 
@@ -105,13 +107,13 @@ You can now find the downloaded kmz file for use in the drones, in the 'Download
 
 <img src="https://github.com/user-attachments/assets/17ae4c17-33ca-4648-9047-16d983e650d2" alt="exit" width="500" height="225"> <br>
 
-**(optional) Step 18:** Click on 'File Manager'
+**(optional) Step 18:** Click on 'File Manager'.
 
 If you need to import a boundary file for your region(s) of interest like a shapefile, then you first need to convert it to a kmz format (using tools like QGIS) and keep it ready in the device or google drive.
 
 <img src="https://github.com/user-attachments/assets/fa697bed-0643-437e-8bf4-155668b20d33" alt="file_manager" width="500" height="225"> <br>
 
-**(optional) Step 19:** Click on 'Import'
+**(optional) Step 19:** Click on 'Import'.
 
 <img src="https://github.com/user-attachments/assets/e129a13d-61d3-4c66-a441-585bfe4e0d9c" alt="import" width="500" height="225"> <br>
 
@@ -121,21 +123,21 @@ If you need to import a boundary file for your region(s) of interest like a shap
 <img src="https://github.com/user-attachments/assets/6143fbfc-6b30-4078-894b-0c661e6c0bc7" alt="search" width="225" height="450">
 <img src="https://github.com/user-attachments/assets/6feef804-5f7b-4039-8aaa-521e731b9a99" alt="find" width="225" height="450"> <br> <br>
 
-**(optional) Step 21:** Click on 'Imported'
+**(optional) Step 21:** Click on 'Imported'.
 
 <img src="https://github.com/user-attachments/assets/3fd7872a-cbfb-4539-a987-6683560dda27" alt="imported" width="500" height="225"> <br>
 
-**(optional) Step 22:** Under 'Imported Overlay Files', turn on the 'Show KML'
+**(optional) Step 22:** Under 'Imported Overlay Files', turn on the 'Show KML'.
 
 <img src="https://github.com/user-attachments/assets/bc475eee-34fe-4930-bc04-171ebb8d7fe7" alt="import" width="500" height="225"> <br>
 
-**(optional) Step 23:** Click on 'Sync'
+**(optional) Step 23:** Click on 'Sync'.
 
 This is needed so that the boundary files show up in the map.
 
 <img src="https://github.com/user-attachments/assets/a37ae6af-85ea-4f93-b1a0-ff2acf991cd7" alt="sync" width="500" height="225"> <br>
 
-**(optional) Step 24:** Under 'Imported Overlay Files', turn on the 'Show KML'
+**(optional) Step 24:** Under 'Imported Overlay Files', turn on the 'Show KML'.
 
 <img src="https://github.com/user-attachments/assets/bc475eee-34fe-4930-bc04-171ebb8d7fe7" alt="show_kml" width="500" height="225"> <br>
 
@@ -150,7 +152,7 @@ For details on how much distance the flight path covers, time required, the numb
 <img src="https://github.com/user-attachments/assets/e7a38cb7-83b2-4cc8-b50e-3a72ce70b0a4" alt="white_and_grey_lines1" width="500" height="225">
 <img src="https://github.com/user-attachments/assets/ae3ee731-c104-4634-937d-1eda5677398d" alt="white_and_grey_lines2" width="500" height="225"> <br>
 
-If you have a paid account and wants to have better terrain awareness for the flight path, click on the icon on the bottom left with one coniferous  tree and two  snow-capped mountains. It will allow you to select the digital elevation model. 
+If you have a paid account and wants to have terrain awareness for the flight path, click on the icon on the bottom left with one coniferous tree and two snow-capped mountains. It will allow you to select the digital elevation model. 
 ASTER is the worst among them for most regions. SRTM is better, but Copernicus is likely the most accurate among these three for most regions, especially the mountainous regions.
 
 <img src="https://github.com/user-attachments/assets/facc8bfc-35cf-4a65-8c5d-88302e5450f5" alt="more_details" width="500" height="225"> <br> <br>
@@ -162,15 +164,15 @@ ASTER is the worst among them for most regions. SRTM is better, but Copernicus i
 
 Note: this workflow won't work for DJI Mini 3 as the waypoint creation icon is not visible in the DJI Fly when connected to the drone. 
 
-For DJI Mini 5 Pro, the kmz file must be uploaded to the remote controller. But there is no straightfoward way to do this. Rohan Baishya explains in this section, a foolproof method to do this (based on [this tutorial][2].
+For DJI Mini 5 Pro and DJI Mini 4 Pro, the kmz file must be uploaded to the remote controller. But there is no straightfoward way to do this. Rohan Baishya explains in this section, a foolproof method to do this (based on [this tutorial][2]).
 
-**Step 1:** In the RC/DJI fly app, connect the drone and press 'GO FLY' 
+**Step 1:** In the RC/DJI fly app, connect the drone and press 'GO FLY'.
 
-NOTE: Make sure the drone is placed outside for adequate satellite signal
+NOTE: Make sure the drone is placed outside for adequate satellite signal.
 
 <img src="https://github.com/user-attachments/assets/e190f2ad-b712-4e35-8457-388bdc85222f" alt="rc-dji-app" width="600" height="325"> <br>
 
-**Step 2:** Click on the map at the bottom left corner (make sure your position is being shown on the map)
+**Step 2:** Click on the map at the bottom left corner (make sure your position is being shown on the map).
 
 <img src="https://github.com/user-attachments/assets/a60b004d-0a62-4db1-9c0e-385d0064d2c4" alt="map" width="600" height="325"> <br>
 
@@ -191,7 +193,7 @@ NOTE: Make sure the drone is placed outside for adequate satellite signal
 
 <img src="https://github.com/user-attachments/assets/d929a78b-f3f3-4b77-8dad-99bc6d8fb18e" alt="save_and-exit" width="600" height="325"> <br>
 
-**Step 7:** Connect the RC to your desktop/laptop (using an USB or any other means available) and follow this path
+**Step 7:** Connect the RC to your desktop/laptop (using an USB or any other means available) and follow this path.
 ```
 DJI RC 2 > Internal Shared Storage > Android > data > Dji.go.v5 > files > waypoint
 ```
@@ -204,7 +206,7 @@ Once you reach the waypoint folder, select the most recently created folder. Thi
 <img src="https://github.com/user-attachments/assets/846c81e1-0beb-4db2-9d58-6e7ad837b587" alt="copy_name" width="800" height="525"> <br>
 
 **Step 9:**  In the PC, change the name of the KMZ file generated from Map Pilot Pro app to the copied name. In this case the kmz file named "Pasighat_test_1.kmz" is changed 
-to "90A8341C-CFE2-4E84-8681-B5B081E5C815.kmz"
+to "90A8341C-CFE2-4E84-8681-B5B081E5C815.kmz".
 
 <img src="https://github.com/user-attachments/assets/1c6e17c9-8c26-4079-8859-3410e3b3ebc5" alt="rename" width="800" height="525"> <br>
 
@@ -275,7 +277,7 @@ Now the the drone will be detected by the mobile phone.
 
 <img src="https://github.com/user-attachments/assets/a9e559cf-f774-448a-81e3-db4e8240542d" alt="terrain_awareness" width="500" height="225"> <br>
 
-**Step 10:** You can click 'Override' on the 'Return to Home Height' pop-up to retain the set app.
+**Step 10:** You can click 'Override' on the 'Return to Home Height' pop-up to retain the set altitude.
 
 <img src="https://github.com/user-attachments/assets/48ac62eb-fa02-41fe-80c0-4eab6b298e9e" alt="rth-override" width="500" height="225"> <br>
 
