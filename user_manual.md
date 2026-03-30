@@ -4,7 +4,7 @@ This research is carried out under the BIRD lab, ATREE, Bengaluru (PI: Rajkamal 
 
 This user manual has been primarily authored by Paul Pop (including most screenshots and images).
 
-Other contributors: Rohan Baishya, Parth Thakur, Raju, and Ranjith Kumar HT have contributed directly to this manual either through contributions to sections of the manual or verbal suggestions/recommendations. <br> <br>
+Other contributors: Rohan Baishya, Parth Thakur, Raju, Ranjith Kumar HT, and Rajkamal Goswami have contributed directly to this manual either through contributions to sections of the manual or verbal suggestions/recommendations. <br> <br>
 
 Sections:
 
@@ -14,6 +14,9 @@ Sections:
 - [Section 3: Flying the drone](#section-3-flying-the-drone)
   * [DJI Mini 3](#dji-mini-3)
   * [DJI Mini 4 Pro](#dji-mini-4-pro)
+  * [Recommended practices](#recommended-practices)
+    + [Largely flat terrain](#largely-flat-terrain)
+    + [Largely hilly terrain](#largely-hilly-terrain)
 - [Section 4: Creation of orthomosaic in WebODM](#section-4-creation-of-orthomosaic-in-webodm)
 
 <br>
@@ -386,6 +389,20 @@ The kmls in this case will look like this (on google earth imagery background), 
 **Step 6:** All the fields will already be filled as per the data configured in Map Pilot Pro. Press **Go** to make the drone fly on the selected flight path.
 
 <img src="https://github.com/user-attachments/assets/1a074f89-ed28-4c5a-ba0e-a80ea4c33348" width="600"> <br>
+
+### Recommended practices
+
+Time of the day: In all kinds of habitats, it is recommended that one chooses the day of the time when there is zero or very minimal shadows when flying the drone so that the stitched orthomosaics will not have shadows. This recommendation assumes that you're not specifically studying shadows itself or the impact of shadows on some feature such as the classification of trees. The time of the day will likely be noon. In case, it is overcast but there is sufficiently good lighting, it may not be noon and images can likely be taken throughout much of the day.
+
+Wind: In all kinds of habitats, it is recommended to fly the drone only when there is no or very limited winds. Ideally, all the objects and organisms in the area are stationary. But it is also okay if the winds rustles the leaves a bit, but it should be swaying branches. If the latter, don't capture images as the orthomosaics will have distortions due to moving control points (like the branches of the trees). In case of heavy winds, the drone itself will likely warn you and return to home. In windy conditions, more battery charge may also be drained due to the energy required to fight against the wind to maintain position and speed.
+
+#### Largely flat terrain
+
+In largely flat terrain such as the Deccan thorn shrub forest ecoregion, the best practices include:
+
+Season: If going for two seasons, March to April (dry season) and September to October (green season) is recommended.
+
+Altitude/Height: Since most areas dont have much obstacles and the area is largely flat, 50 m height is sufficient for getting high resolution imagery without hitting any obstacles. For areas with boulders or hills, 80 m is sufficient (unless the hill is 80 m or more in height). 
 
 ## Section 4: Creation of orthomosaic in WebODM
 
