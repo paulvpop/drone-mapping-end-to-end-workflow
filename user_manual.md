@@ -6,7 +6,7 @@ This user manual has been primarily authored by Paul Pop (including most text, s
 
 Other contributors: Rohan Baishya, Parth Thakur, Raju J K, Ranjith Kumar HT, and Rajkamal Goswami have contributed directly to this manual either through contributions to sections of the manual or verbal suggestions/recommendations. <br> <br>
 
-*Version 1.0 - last updated 2026-03-30* <br>
+*Version 1.1 - last updated 2026-05-08* <br>
 *Last update - recommended practices*
 
 View the most current version at https://github.com/paulvpop/drone-mapping-end-to-end-workflow/blob/main/user_manual.md
@@ -406,9 +406,11 @@ The kmls in this case will look like this (on google earth imagery background), 
 
 ### Recommended practices
 
-Time of the day: In all kinds of habitats, it is recommended that one chooses the day of the time when there is zero or very minimal shadow when flying the drone so that the stitched orthomosaics will not have shadows. This recommendation assumes that you're not specifically studying shadows itself or the impact of shadows on some feature such as the classification of trees. The time of the day will likely be noon. In case it is overcast but there is sufficiently good lighting, the images need not be taken at noon and images can likely be taken throughout much of the day.
+Time of the day: In all kinds of habitats, it is recommended that one chooses the day of the time when there is zero or very minimal shadow when flying the drone so that the stitched orthomosaics will not have shadows. This recommendation assumes that you're not specifically studying shadows itself or the impact of shadows on some feature such as the classification of trees. The time of the day will likely be noon. Note that if you're doing it noon, the drone and mobile phone can get overheated which can result in the abrupt ending of the planned mission and even hanging of the Map Pilot Pro app. So, keep this in mind when selecting the time of the day. In case it is overcast but there is sufficiently good lighting, the images need not be taken at noon and images can likely be taken throughout much of the day.
 
-Wind: In all kinds of habitats, it is recommended to fly the drone only when there is no or very limited winds. Ideally, all the objects and organisms in the area are stationary. But it is also okay if the winds rustles the leaves a bit, but it should be swaying branches. If the latter, don't capture images as the orthomosaics will have distortions due to moving control points (like the branches of the trees). In case of heavy winds, the drone itself will likely warn you and return to home. In windy conditions, more battery charge may also be drained due to the energy required to fight against the wind to maintain position and speed.
+Wind: In all kinds of habitats, it is recommended to fly the drone only when there is no or very limited winds. Ideally, all the objects and organisms in the area are stationary. But it is also okay if the winds rustles the leaves a bit, but it should not be swaying branches. If the latter, don't capture images as the orthomosaics will have distortions due to moving control points (like the branches of the trees). In case of heavy winds, the drone itself will likely warn you and return to home. In windy conditions, more battery charge may also be drained due to the energy required to fight against the wind to maintain position and speed.
+
+If you are unable to capture all the imagery in one flight path/one day, you can create another flight path where there is an overlap of at least two photo capture points of the adjoining flight path. WebODM will be able to stitch imagery from multiple flight paths, although ideally, all imagery should be from a single flight. If you're flying on a different day, make sure the weather conditions are the same/similar, and ideally it should be done the next day itself.  
 
 #### Largely flat terrain
 
@@ -416,7 +418,7 @@ In a largely flat terrain such as the Deccan thorn shrub forest ecoregion, the b
 
 Season: If going for two seasons, March to April (dry season) and September to October (green season) is recommended.
 
-Altitude/Height: Since most areas dont have much obstacles and the area is largely flat, 50 m height is sufficient for getting high resolution imagery without hitting any obstacles. For areas with boulders or hills, 80 m is sufficient (unless the hill is 80 m or more in height). 
+Altitude/Height: Since most areas dont have much obstacles and the area is largely flat, 50 m height is sufficient for getting high resolution imagery without hitting any obstacles. For areas with boulders or hills, 80 m is sufficient (unless the hill is 80 m or more in height). But, 80 m is recommended for all habitats given the battery and storage usage for large number of image collections.
 
 ## Section 4: Creation of orthomosaic in WebODM
 
